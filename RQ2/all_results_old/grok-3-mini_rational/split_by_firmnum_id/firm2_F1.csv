@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+2,1,F1,0.45,"Change price: -0.05, reason: Zero share rate heightens competition and consumer search, requiring a price cut to boost demand and profit.",4.95,11,4.95,0.0,"[0.0, 'equilibrium']"
+2,2,F1,0.48,"Change price: 0.03, reason: Slight increase to optimize profit with zero share rate.",5.28,11,5.28,0.0,"[0.0, 'equilibrium']"
+2,3,F1,0.51,"Change price: 0.03, reason: Slight increase to further optimize profit with unchanged sales and zero share rate.",5.1,10,5.1,0.0,"[0.0, 'equilibrium']"
+2,4,F1,0.48,"Change price: -0.03, reason: Decrease to regain lost sales and boost profit after recent price hike reduced revenue.",5.28,11,5.28,0.0,"[0.0, 'equilibrium']"
+2,5,F1,0.5,"Change price: 0.02, reason: Slight increase to optimize profit with competitor at higher price and stable demand.",4.5,9,4.5,0.0,"[0.0, 'equilibrium']"
+2,6,F1,0.48,"Change price: -0.02, reason: Decrease to regain sales and boost profit after recent drop in revenue.",5.76,12,5.76,0.0,"[0.0, 'equilibrium']"
+2,7,F1,0.46,"Change price: -0.02, reason: Decrease to boost sales and profit following recent successful strategy.",5.52,12,5.52,0.0,"[0.0, 'equilibrium']"
+2,8,F1,0.48,"Change price: 0.02, reason: Increase to match competitor and boost profit based on stable sales at higher prices.",4.8,10,4.8,0.0,"[0.0, 'equilibrium']"
+2,9,F1,0.45,"Change price: -0.03, reason: Decrease to match competitor's lower price and recapture market share after sales drop.",5.4,12,5.4,0.0,"[0.0, 'equilibrium']"
+2,10,F1,0.46,"Change price: 0.01, reason: Slight increase to boost profit margin while keeping price below competitor's.",4.6,10,4.6,0.0,"[0.0, 'equilibrium']"

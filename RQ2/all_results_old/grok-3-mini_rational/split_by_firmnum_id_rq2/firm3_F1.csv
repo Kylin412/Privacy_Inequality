@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+3,1,F1,0.62,"Change price: 0.12, reason: Optimize profit with low data sharing and competition.",0.62,1,0.62,0.2,"[0.2, 'equilibrium']"
+3,2,F1,0.5,"Change price: -0.12, reason: decrease to increase sales and profit by competing with lower-priced successful firms.",0.5,1,0.5,0.2,"[0.2, 'equilibrium']"
+3,3,F1,0.4,"Change price: -0.10, reason: decrease to undercut competitors and capture more market share for higher profit.",0.4,1,0.4,0.2,"[0.2, 'equilibrium']"
+3,4,F1,0.6,"Change price: 0.20, reason: increase to maximize profit as sales remain constant despite price changes in history.",0.0,0,0.0,0.2,"[0.2, 'equilibrium']"
+3,5,F1,0.3,"Change price: -0.30, reason: decrease to capture more market share and boost sales based on competitors' low-price success.",0.6,2,0.6,0.2,"[0.2, 'equilibrium']"
+3,6,F1,0.25,"Change price: -0.05, reason: decrease to undercut competitors and boost sales for higher profit.",0.25,1,0.25,0.2,"[0.2, 'equilibrium']"
+3,7,F1,0.3,"Change price: 0.05, reason: increase to match competitors' successful pricing for higher profit per sale.",0.3,1,0.3,0.2,"[0.2, 'equilibrium']"
+3,8,F1,0.3,"Change price: 0.00, reason: maintain price to align with competitors' successful strategy and stable share rate for consistent profit.",0.3,1,0.3,0.2,"[0.2, 'equilibrium']"
+3,9,F1,0.3,"Change price: 0.00, reason: maintain price to align with competitors' stable pricing and maximize profit in equilibrium share rate.",0.3,1,0.3,0.2,"[0.2, 'equilibrium']"
+3,10,F1,0.3,"Change price: 0.00, reason: maintain price to align with competitors' successful strategy and stable share rate for consistent profit.",0.3,1,0.3,0.2,"[0.2, 'equilibrium']"

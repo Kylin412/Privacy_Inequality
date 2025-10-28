@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+9,1,C7,True,"Yes, because the potential reduction in search costs from personalized recommendations outweighs the 0.031 privacy value with 9 firms available.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.37.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.37@F5) → Purchase F5",0.34
+9,2,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.32.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.32@F5) → Purchase F5",0.29
+9,3,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.27.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.27@F5) → Purchase F5",0.24
+9,4,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.22.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.22@F5) → Purchase F5",0.19
+9,5,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.17.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.14
+9,6,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.12.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.12@F5) → Purchase F5",0.09
+9,7,C7,True,"Yes, because the potential reduction in search costs from personalized recommendations with 9 firms outweighs the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.07.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.07@F5) → Purchase F5",0.04
+9,8,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.02.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.02@F5) → Purchase F5",-0.01
+9,9,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.07.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.07@F5) → Purchase F5",0.04
+9,10,C7,True,"Yes, because the potential search cost savings from personalized recommendations with 9 firms outweigh the 0.031 privacy value.",5,"### Decision:  
+I'll **purchase Firm 5** (choose number 5) because:  
+- It offers a positive profit of 0.05.  
+- Guidelines state I won't leave without buying if positive profit exists.","C7 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:0.05@F5) → Purchase F5",0.02

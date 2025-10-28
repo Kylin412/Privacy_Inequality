@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F2,0.5,"Change price: 0.00, reason: high share rate reduces search, supporting standard price of 0.50 for maximum profit.",1.5,3,1.5,1.0,"[0.8830493855976477, 'adaptive']"
+10,2,F2,0.5,"Change price: 0.00, reason: high share rate reduces search, maintain standard price for maximum expected profit.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,3,F2,0.5,"Change price: 0.00, reason: high share rate and historical profit at 0.50 support maintaining optimal price.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,4,F2,0.5,"Change price: 0.00, reason: high share rate and consistent profit at 0.50 support maintaining optimal price.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,5,F2,0.5,"Change price: 0.00, reason: historical consistency with profit 1.5 at price 0.50 under high share rate.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,6,F2,0.6,"Change price: 0.10, reason: Increase price slightly to test for higher profit with high share rate and observed competitor success at higher prices.",1.8,3,1.8,1.0,"[1.0, 'adaptive']"
+10,7,F2,0.65,"Change price: 0.05, reason: Slight increase to test higher profit with high share rate and competitor success at elevated prices.",1.95,3,1.95,1.0,"[1.0, 'adaptive']"
+10,8,F2,0.7,"Change price: 0.05, reason: Slight increase to capture higher revenue with high share rate and competitor success at elevated prices.",1.4,2,1.4,1.0,"[1.0, 'adaptive']"
+10,9,F2,0.65,"Change price: -0.05, reason: Decrease to restore sales and profit after decline at 0.70, aligning with competitor success at 0.65.",1.95,3,1.95,1.0,"[1.0, 'adaptive']"
+10,10,F2,0.7,"Change price: 0.05, reason: Increase to capture higher revenue based on competitor success at 0.70 with high sales.",1.4,2,1.4,1.0,"[1.0, 'adaptive']"

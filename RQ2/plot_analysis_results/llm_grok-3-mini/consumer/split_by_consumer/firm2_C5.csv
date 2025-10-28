@@ -1,0 +1,38 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Both firms offer negative profits (-0.35 and -0.33).  
+- No more firms to search, and purchasing would reduce total revenue.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.35@F1) → Search Next; C5 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.33@F0) → Leave Market",-0.02
+2,2,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one search), making sharing unprofitable.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit (-0.28), making purchase unprofitable.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, further reducing total revenue.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,3,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",-1,Defaulted after 3 fails. Best Profit: -0.33 -> Choice: -1,"C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.33@F1) → Leave Market",0.0
+2,4,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, further reducing total revenue.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,5,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one search), making sharing unprofitable.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, potentially reducing total revenue further.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,6,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, further reducing total revenue.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,7,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable and worsening total revenue.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, while leaving minimizes losses at -0.048.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,8,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable and reducing total revenue.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, while leaving minimizes losses at -0.048.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28
+2,9,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search), making sharing unprofitable.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.34), so purchasing would decrease total revenue.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, based on past experiences, potentially worsening outcomes.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Leave Market",0.0
+2,10,C5,False,"No, because the privacy value (0.048) exceeds the potential search cost savings (up to 0.02 for one additional search).",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), making purchase unprofitable.  
+- Searching another firm costs 0.02 with no guarantee of positive profit, worsening total revenue.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F0) → Purchase F0",-0.28

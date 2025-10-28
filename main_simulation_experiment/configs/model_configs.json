@@ -1,0 +1,62 @@
+[
+    {
+        "config_name": "gpt-4.1-mini",
+        "model_type": "openai_chat",
+        "model_name": "gpt-4.1-mini",
+        "api_key": "GPT_API_KEY",
+        "client_args": {
+            "base_url": ""
+        },
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "gpt-3.5-turbo",
+        "model_type": "openai_chat",
+        "model_name": "gpt-4.1-turbo",
+        "api_key": "GPT_API_KEY",
+        "client_args": {
+            "base_url": ""
+        },
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "gemini-2.0-flash",
+        "model_type": "openai_chat",
+        "model_name": "gemini-2.0-flash",
+        "api_key": "GEMINI_API_KEY",
+        "client_args": {
+            "base_url": ""
+        },
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "deepseek-v3",
+        "model_type": "openai_chat",
+        "model_name": "deepseek-v3",
+        "api_key": "DEEPSEEK_API_KEY",
+        "client_args": {
+            "base_url": ""
+        },
+        "generate_args": {
+            "temperature": 0.5
+        }
+    },
+    {
+        "config_name": "grok-3-mini",
+        "model_type": "openai_chat",
+        "model_name": "grok-3-mini",
+        "api_key": "GROK_API_KEY",
+        "client_args": {
+            "base_url": ""
+        },
+        "generate_args": {
+            "temperature": 0.5
+        }
+    }
+]

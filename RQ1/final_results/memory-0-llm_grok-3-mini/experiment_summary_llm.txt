@@ -1,0 +1,28 @@
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+
+CONFIGURATION:
+- Decision Mode: LLM Simulation
+- Number of Experiments: 10
+- Firm Range: 1 to 10
+- Consumer Count: 20
+- Rounds per Experiment: 10
+- Search Cost: 0.02
+- Network Type: fully_connected
+
+RESULTS OVERVIEW:
+- Average Share Ratio: 0.763
+- Average Consumer Surplus: 0.1413
+- Average Firm Surplus: 2.8468
+- Average Avg Search Cost: 0.001
+- Average Avg Price: 0.6385
+
+Files Generated:
+- Raw Data: inter_experiment_avg_data_llm.csv
+- Visualizations: *_llm.png
+- Individual Data: experiment_*_llm_data.csv
+- Log File: run_*_llm.log
+
+Timestamp: 20250716_114857_369254
+Process ID: 3095880

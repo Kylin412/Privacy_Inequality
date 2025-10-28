@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+8,1,F5,0.55,"Change price: 0.05, reason: High share rate boosts buy likelihood, enabling higher pricing.",1.1,2,1.1,0.95,"[0.8010913530743055, 'adaptive']"
+8,2,F5,0.65,"Change price: 0.10, reason: High predicted share rate reduces search, enabling higher pricing for profit maximization.",1.3,2,1.3,1.0,"[0.95, 'adaptive']"
+8,3,F5,0.75,"Change price: 0.10, reason: High share rate reduces search, enabling price increase to maximize profit based on competitor success.",1.5,2,1.5,1.0,"[1.0, 'adaptive']"
+8,4,F5,0.8,"Change price: 0.05, reason: High share rate reduces search, enabling price increase to maximize profit based on stable historical sales and competitor performance.",1.6,2,1.6,1.0,"[1.0, 'adaptive']"
+8,5,F5,0.85,"Change price: 0.05, reason: High share rate reduces search, enabling price increase to maximize profit based on stable sales and competitor insights.",1.7,2,1.7,1.0,"[1.0, 'adaptive']"
+8,6,F5,0.8,"Change price: -0.05, reason: Lower price to increase sales and profit based on competitor performance with higher sales at similar prices.",1.6,2,1.6,1.0,"[1.0, 'adaptive']"
+8,7,F5,0.85,"Change price: 0.05, reason: Sales unchanged despite prior reduction, indicating price insensitivity, enabling increase to boost profit with high share rate.",1.7,2,1.7,1.0,"[1.0, 'adaptive']"
+8,8,F5,0.9,"Change price: 0.05, reason: Increase to 0.90 to boost profit with consistent sales history.",1.8,2,1.8,1.0,"[1.0, 'adaptive']"
+8,9,F5,1.0,"Change price: 0.10, reason: Increase to 1.00 to maximize profit with consistent sales history.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+8,10,F5,0.8,"Change price: -0.20, reason: Zero sales at high price, reduce to boost sales and profit based on competitor performance.",1.6,2,1.6,1.0,"[1.0, 'adaptive']"

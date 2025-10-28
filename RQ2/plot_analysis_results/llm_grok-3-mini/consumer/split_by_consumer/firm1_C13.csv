@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+1,1,C13,False,"No, because with only one firm, the potential reduction in search cost is minimal and likely less than the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.49, resulting in a net loss.  
+- No more firms are available to search, and purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.49@F0) → Leave Market",0.0
+1,2,C13,False,"No, because with only one firm, sharing offers minimal search cost reduction, which is likely outweighed by the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,3,C13,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, and purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,4,C13,False,"No, because with only one firm, the potential reduction in search cost is minimal and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,5,C13,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,6,C13,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,7,C13,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,8,C13,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't outweigh the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,9,C13,False,"No, because with only one firm, sharing data offers no meaningful reduction in search costs, which is outweighed by the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0
+1,10,C13,False,"No, because with only one firm, sharing data offers no meaningful reduction in search costs, which is outweighed by the privacy value of 0.039.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers a negative profit of -0.46, resulting in a net loss.  
+- No more firms are available to search, so purchasing would not maximize revenue.","C13 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.46@F0) → Leave Market",0.0

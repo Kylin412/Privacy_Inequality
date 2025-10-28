@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+6,1,F3,0.6,"Change price: 0.10, reason: high share rate increases purchase likelihood.",2.4,4,2.4,1.0,"[0.6964068920292059, 'adaptive']"
+6,2,F3,0.55,"Change price: -0.05, reason: Lower price to boost sales and revenue based on competitor performance.",2.2,4,2.2,1.0,"[1.0, 'adaptive']"
+6,3,F3,0.6,"Change price: 0.05, reason: High share rate reduces search, allowing higher pricing to boost profit.",2.4,4,2.4,1.0,"[1.0, 'adaptive']"
+6,4,F3,0.55,"Change price: -0.05, reason: Lower price to increase sales and revenue, following top firm's successful strategy with high share rate.",2.2,4,2.2,1.0,"[1.0, 'adaptive']"
+6,5,F3,0.6,"Change price: 0.05, reason: Higher price boosts profit with stable sales under high share rate.",2.4,4,2.4,1.0,"[1.0, 'adaptive']"
+6,6,F3,0.55,"Change price: -0.05, reason: Lower price to increase sales and profit, imitating top firm's strategy with high share rate.",2.2,4,2.2,1.0,"[1.0, 'adaptive']"
+6,7,F3,0.6,"Change price: 0.05, reason: Higher price boosts profit with consistent sales under high share rate.",2.4,4,2.4,0.95,"[1.0, 'adaptive']"
+6,8,F3,0.55,"Change price: -0.05, reason: Lower price to boost sales and profit, imitating top firm's strategy with high share rate.",2.2,4,2.2,1.0,"[0.95, 'adaptive']"
+6,9,F3,0.6,"Change price: 0.05, reason: Increase price to maximize profit with stable sales history under high share rate.",2.4,4,2.4,1.0,"[1.0, 'adaptive']"
+6,10,F3,0.55,"Change price: -0.05, reason: Lower price to increase sales and profit, imitating top firm's successful strategy with high share rate.",2.2,4,2.2,1.0,"[1.0, 'adaptive']"

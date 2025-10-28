@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+2,1,F0,0.5,"Change price: 0.00, reason: symmetric duopoly with no data sharing suggests starting at basic price to avoid price war.",1.5,3,1.5,0.0,"[0.0, 'equilibrium']"
+2,2,F0,0.45,"Change price: -0.05, reason: Zero share rate increases competition, requiring price cut to match competitor and increase sales and profit.",2.7,6,2.7,0.0,"[0.0, 'equilibrium']"
+2,3,F0,0.48,"Change price: 0.03, reason: Match competitor's higher price to increase profit margin, as lower price resulted in suboptimal sales relative to their performance.",1.92,4,1.92,0.0,"[0.0, 'equilibrium']"
+2,4,F0,0.51,"Change price: 0.03, reason: Slight increase to match competitor's price and optimize profit with potential stable sales under zero share rate.",1.53,3,1.53,0.0,"[0.0, 'equilibrium']"
+2,5,F0,0.48,"Change price: -0.03, reason: Match competitor's price to increase sales and profit after recent underperformance.",2.4,5,2.4,0.0,"[0.0, 'equilibrium']"
+2,6,F0,0.5,"Change price: 0.02, reason: Increase to match competitor's price and optimize profit with stable demand and no data sharing.",1.0,2,1.0,0.0,"[0.0, 'equilibrium']"
+2,7,F0,0.48,"Change price: -0.02, reason: Match competitor's price to increase sales and profit after underperformance.",1.44,3,1.44,0.0,"[0.0, 'equilibrium']"
+2,8,F0,0.45,"Change price: -0.03, reason: Undercut competitor's price to capture more market share and increase profit after underperformance.",3.15,7,3.15,0.0,"[0.0, 'equilibrium']"
+2,9,F0,0.48,"Change price: 0.03, reason: Match competitor's price to increase profit margin after undercutting yielded lower sales.",1.44,3,1.44,0.0,"[0.0, 'equilibrium']"
+2,10,F0,0.44,"Change price: -0.04, reason: undercut competitor to capture more market share and boost profit.",3.08,7,3.08,0.0,"[0.0, 'equilibrium']"

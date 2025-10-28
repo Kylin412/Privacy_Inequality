@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+8,1,F1,0.73,"Change price: 0.23, reason: Increase price to optimize profit with personalized recommendations reducing competition effect.",0.73,1,0.73,0.95,"[0.3700432659261912, 'adaptive']"
+8,2,F1,0.5,"'Change price: -0.23, reason: Lower price to 0.50 to maximize expected profit with high share rate and uniform valuations.'",0.5,1,0.5,1.0,"[0.95, 'adaptive']"
+8,3,F1,0.8,"Change price: 0.30, reason: High share rate reduces search, allowing price increase to maximize profit based on competitor success.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,4,F1,0.8,"Change price: 0.00, reason: High share rate reduces search, allowing price maintenance to maximize profit based on competitor performance and stable demand.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,5,F1,0.5,"Change price: -0.30, reason: Lower price to 0.50 to maximize expected profit with uniform valuations and random recommendations under high share rate.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+8,6,F1,0.8,"Change price: 0.30, reason: High share rate reduces search, allowing price increase to maximize profit based on competitor performance.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,7,F1,0.8,"Change price: 0.00, reason: High share rate reduces search, allowing price maintenance at 0.80 to maximize profit based on competitor success and stable demand.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,8,F1,0.8,"Change price: 0.00, reason: High share rate and competitor success at 0.80 confirm price maintenance maximizes profit despite low personal sales.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,9,F1,0.8,"Change price: 0.00, reason: High share rate and competitor success at 0.80 indicate maintaining price maximizes profit despite personal sales history.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,10,F1,0.8,"Change price: 0.00, reason: High share rate and competitor success at 0.80 confirm maintaining price maximizes profit.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"

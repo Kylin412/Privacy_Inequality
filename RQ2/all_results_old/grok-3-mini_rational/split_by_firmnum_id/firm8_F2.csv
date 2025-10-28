@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+8,1,F2,0.5,"Change price: 0.00, reason: High data sharing and equal recommendations make basic price optimal for profit maximization.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,2,F2,0.5,"Change price: 0.00, reason: Maximize profit with full data sharing, equal recommendations, and optimal price for uniform valuations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,3,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with full share rate, equal recommendations, and uniform valuations in competitive equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,4,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with full share rate, equal recommendations, and uniform valuations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,5,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with full share rate, equal recommendations, and uniform valuations in symmetric equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,6,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with predicted share rate of 1.0 and uniform valuations in symmetric equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,7,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with share rate 1.0 and symmetric equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,8,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with full share rate and symmetric equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,9,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with full share rate, equal recommendations, and uniform valuations in symmetric equilibrium.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+8,10,F2,0.5,"Change price: 0.00, reason: Optimal for maximizing profit in symmetric equilibrium with full share rate and uniform valuations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"

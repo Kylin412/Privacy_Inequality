@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+3,1,F1,0.58,"Change price: 0.08, reason: High data sharing rate reduces search, increasing demand and allowing higher pricing.",2.9,5,2.9,0.7,"[0.562503787541036, 'adaptive']"
+3,2,F1,0.58,"Change price: 0.00, reason: High share rate reduces search, sustaining demand for current price.",2.32,4,2.32,0.4,"[0.7, 'adaptive']"
+3,3,F1,0.58,"Change price: 0.00, reason: Stable share rate of 0.4 maintains demand, avoiding risk of reduced sales from price change.",2.32,4,2.32,0.5,"[0.4, 'adaptive']"
+3,4,F1,0.6,"Change price: 0.02, reason: Moderate share rate reduces search, allowing slight price increase to boost profit.",1.8,3,1.8,0.5,"[0.5, 'adaptive']"
+3,5,F1,0.58,"Change price: -0.02, reason: Previous price increase reduced sales and profit, lowering price to increase demand and recover revenue.",2.32,4,2.32,0.5,"[0.5, 'adaptive']"
+3,6,F1,0.6,"Change price: 0.02, reason: Moderate share rate reduces search, allowing slight price increase to boost profit.",2.4,4,2.4,0.45,"[0.5, 'adaptive']"
+3,7,F1,0.64,"Change price: 0.04, reason: Moderate share rate reduces search, allowing price increase to boost profit, following competitive trends.",2.56,4,2.56,0.45,"[0.45, 'adaptive']"
+3,8,F1,0.66,"Change price: 0.02, reason: Moderate share rate reduces search, allowing slight price increase to boost profit while maintaining sales.",1.98,3,1.98,0.5,"[0.45, 'adaptive']"
+3,9,F1,0.64,"Change price: -0.02, reason: Previous price increase reduced sales and profit, lowering price to boost demand and recover revenue.",2.56,4,2.56,0.5,"[0.5, 'adaptive']"
+3,10,F1,0.64,"Change price: 0.00, reason: Stable share rate and high profit from last round, maintain price to avoid sales drop risk.",2.56,4,2.56,0.5,"[0.5, 'adaptive']"

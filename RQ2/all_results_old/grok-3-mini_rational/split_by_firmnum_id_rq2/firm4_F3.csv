@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+4,1,F3,0.6,"Change price: 0.10, reason: High share rate and competition increase demand from recommendations, allowing higher pricing.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,2,F3,0.6,"Change price: 0.00, reason: High share rate sustains demand from recommendations, maintaining profitability.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,3,F3,0.6,"Change price: 0.00, reason: High share rate sustains demand from recommendations, ensuring stable profitability.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,4,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand maintain profitability, avoiding risk from price changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,5,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from price changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,6,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand continue to sustain profitability, avoiding unnecessary risk.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,7,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,8,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from price changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,9,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"
+4,10,F3,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from changes.",6.0,10,6.0,0.7,"[0.7, 'equilibrium']"

@@ -1,0 +1,28 @@
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+
+CONFIGURATION:
+- Decision Mode: Rational: Share, Search, Price
+- Number of Experiments: 10
+- Firm Range: 1 to 10
+- Consumer Count: 20
+- Rounds per Experiment: 10
+- Search Cost: 0.02
+- Network Type: fully_connected
+
+RESULTS OVERVIEW:
+- Average Share Ratio: 0.7
+- Average Consumer Surplus: 0.1314
+- Average Firm Surplus: 2.4373
+- Average Avg Search Cost: 0.0047
+- Average Avg Price: 0.6496
+
+Files Generated:
+- Raw Data: inter_experiment_avg_data_rational.csv
+- Visualizations: *_rational.png
+- Individual Data: experiment_*_rational_data.csv
+- Log File: run_*_rational.log
+
+Timestamp: 20250630_185828_167356
+Process ID: 37408

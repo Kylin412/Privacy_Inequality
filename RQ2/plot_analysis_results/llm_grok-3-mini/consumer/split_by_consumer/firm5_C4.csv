@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+5,1,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.02), resulting in overall negative revenue.  
+- Additional searches will increase costs (0.02 per search), unlikely to yield positive profit given the current best option.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.02@F1) → Leave Market",-0.04
+5,2,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Both searched firms offer negative profits (-0.12 and -0.03), leading to overall negative revenue after costs.  
+- Further searches add 0.02 cost with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.12@F1) → Search Next; C4 Search #2 (Searched:2/5, SearchCost:0.02, BestProfit:-0.03@F0) → Leave Market",-0.06
+5,3,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04
+5,4,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms likely outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.32), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.32@F1) → Leave Market",-0.04
+5,5,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04
+5,6,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.27), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.27@F1) → Leave Market",-0.04
+5,7,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms still outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04
+5,8,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms still outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04
+5,9,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms still outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04
+5,10,C4,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms still outweighs the 0.043 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in overall negative revenue.  
+- Additional searches cost 0.02 with no guarantee of positive profit, making it unlikely to maximize revenue.","C4 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.22@F1) → Leave Market",-0.04

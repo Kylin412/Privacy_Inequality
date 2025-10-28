@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C18,False,"No, because the privacy cost of 0.052 exceeds the likely reduction in search cost (e.g., saving 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.20), maximizing total revenue at 0.128.  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.03@F1) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.20@F0) → Purchase F0",0.18
+2,2,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., saving 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.25@F0) → Purchase F0",0.25
+2,3,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., saving 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.30), maximizing total revenue at 0.228.  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.30@F0) → Purchase F0",0.28
+2,4,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.25@F0) → Purchase F0",0.25
+2,5,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., saving 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.25@F0) → Purchase F0",0.25
+2,6,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25), maximizing total revenue at 0.178.  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F1) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.25@F0) → Purchase F0",0.23
+2,7,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F1) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.25@F0) → Purchase F0",0.23
+2,8,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F1) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.25@F0) → Purchase F0",0.23
+2,9,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search), making it not worthwhile.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.25@F0) → Purchase F0",0.25
+2,10,C18,False,"No, because the privacy cost of 0.052 exceeds the potential search cost savings (e.g., 0.02 from one fewer search).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Firm 0 offers positive profit (0.25).  
+- Rational rule: Won't leave if any firm has positive profit.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.25@F0) → Purchase F0",0.25

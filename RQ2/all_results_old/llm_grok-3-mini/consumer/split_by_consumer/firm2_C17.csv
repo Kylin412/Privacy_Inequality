@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making it not worth the trade-off.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.32.  
+- This maximizes total revenue by avoiding additional search costs.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32
+2,2,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.33.  
+- This maximizes total revenue by avoiding further costs.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.08@F0) → Search Next; C17 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.33@F1) → Purchase F1",0.31
+2,3,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.34, which I won't pass up.  
+- Searching further would incur a 0.02 cost without guaranteed better returns.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.34@F1) → Purchase F1",0.34
+2,4,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",0,"### Decision:  
+I'll **search another firm** (choose number 2) because:  
+- The searched firm has negative profit (-0.08), so buying it would reduce revenue.  
+- Searching may reveal a firm with positive profit, justifying the 0.02 cost for potential gain.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.08@F0) → Purchase F0",-0.08
+2,5,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.33.  
+- This maximizes total revenue by avoiding additional search costs.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.33@F1) → Purchase F1",0.33
+2,6,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.33.  
+- Searching further would incur a 0.02 cost without guaranteed better returns.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.33@F1) → Purchase F1",0.33
+2,7,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",0,"### Decision:  
+I'll **search another firm** (choose number 2) because:  
+- The searched firm has negative profit (-0.08), so buying it would reduce revenue.  
+- Searching may reveal a firm with positive profit, justifying the 0.02 cost.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.08@F0) → Purchase F0",-0.08
+2,8,C17,False,"No, because the potential reduction in search cost (up to 0.02) is less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.33.  
+- This maximizes total revenue by avoiding additional search costs.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.33@F1) → Purchase F1",0.33
+2,9,C17,False,"No, because the potential reduction in search cost (up to 0.02) is still less than the privacy value (0.036), making the trade-off not worthwhile.",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.33.  
+- This maximizes total revenue by avoiding further costs.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.08@F0) → Search Next; C17 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.33@F1) → Purchase F1",0.31
+2,10,C17,False,"No, because the potential reduction in search cost (up to 0.02) is still less than the privacy value (0.036), making the trade-off not worthwhile.",0,"### Decision:  
+I'll **search another firm** (choose number 2) because:  
+- The searched firm has negative profit (-0.08), so buying it would reduce revenue.  
+- Searching may reveal a firm with positive profit, justifying the 0.02 cost.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.08@F0) → Purchase F0",-0.08

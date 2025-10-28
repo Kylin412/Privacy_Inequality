@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+5,1,C15,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.22.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.17
+5,2,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.17.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.17@F0) → Purchase F0",0.12
+5,3,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.12.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.12@F0) → Purchase F0",0.07
+5,4,C15,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.07.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.07@F0) → Purchase F0",0.02
+5,5,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations still outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.02.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.02@F0) → Purchase F0",-0.03
+5,6,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Both searched firms have negative profits (-0.03 and -0.37).  
+- Additional searching would increase costs, risking greater losses without guaranteed positive profit.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.03@F0) → Search Next; C15 Search #2 (Searched:2/5, SearchCost:0.02, BestProfit:-0.03@F0) → Leave Market",-0.07
+5,7,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.02.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.02@F0) → Purchase F0",-0.03
+5,8,C15,True,"Yes, because the potential reduction in search costs from personalized recommendations with 5 firms outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **search another firm** (choose number 5) because:  
+- The searched firm has a negative profit of -0.01, so it's not worthwhile to purchase yet.  
+- The low search cost of 0.02 might lead to finding a firm with positive profit, potentially improving total revenue.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.01@F0) → Purchase F0",-0.06
+5,9,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **search another firm** (choose number 5) because:  
+- The searched firm has a negative profit of -0.02, making purchase unprofitable.  
+- The low search cost of 0.02 could uncover a firm with positive profit, potentially improving total revenue.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.02@F0) → Purchase F0",-0.07
+5,10,C15,True,"Yes, because with 5 firms, the potential reduction in search costs from personalized recommendations outweighs the 0.052 privacy value.",0,"### Decision:  
+I'll **search another firm** (choose number 5) because:  
+- The searched firm has a negative profit of -0.03, making purchase unprofitable.  
+- The low search cost of 0.02 could reveal a firm with positive profit, potentially improving total revenue.","C15 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.03@F0) → Purchase F0",-0.08

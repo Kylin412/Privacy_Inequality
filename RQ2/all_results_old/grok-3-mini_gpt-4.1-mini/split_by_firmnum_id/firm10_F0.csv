@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F0,0.5,"Change price: 0.00, reason: maintain basic price to maximize profit with given share rate and competition.",0.5,1,0.5,1.0,"[0.18358734035036006, 'adaptive']"
+10,2,F0,0.5,"Change price: 0.00, reason: high predicted share rate supports maintaining standard price to maximize profit by balancing quantity and price.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,3,F0,0.5,"Change price: 0.00, reason: optimal price maximizes expected profit with high share rate and stable competition.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,4,F0,0.5,"Change price: 0.00, reason: maintain optimal price to maximize expected profit with high share rate and uniform recommendations.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,5,F0,0.5,"Change price: 0.00, reason: optimal price maximizes expected profit with high share rate and equal recommendations.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,6,F0,0.5,"Change price: 0.00, reason: high share rate and equal recommendations optimize profit at current price.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,7,F0,0.5,"Change price: 0.00, reason: maintain optimal price to maximize expected profit with high share rate and equal recommendations.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+10,8,F0,0.55,"Change price: 0.05, reason: Test higher price for increased profit with high share rate and competitor success.",0.55,1,0.55,1.0,"[1.0, 'adaptive']"
+10,9,F0,0.65,"Change price: 0.10, reason: Increase to optimize profit based on competitor data showing higher earnings at elevated prices with high share rate.",0.65,1,0.65,1.0,"[1.0, 'adaptive']"
+10,10,F0,0.5,"Change price: -0.15, reason: Decrease to 0.50 to maximize expected profit based on uniform valuation and random recommendations.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"

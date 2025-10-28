@@ -1,0 +1,38 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C11,False,"No, because the potential reduction in search cost (up to 0.02) is less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.45, which is rational to accept.  
+- Searching further would incur additional cost without guaranteed better returns.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.45@F0) → Purchase F0",0.45
+2,2,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,3,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",-1,Defaulted after 3 fails. Best Profit: -0.33 -> Choice: -1,"C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.33@F1) → Leave Market",0.0
+2,4,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,5,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,6,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,7,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching further would incur additional cost without guaranteed better returns.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.50@F0) → Purchase F0",0.5
+2,8,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,9,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48
+2,10,C11,False,"No, because the potential reduction in search cost (up to 0.02) is still less than my privacy value (0.041), making it not worth the trade-off.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.5, which is rational to accept.  
+- Searching is not possible, and leaving would forfeit this opportunity.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.34@F1) → Search Next; C11 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.50@F0) → Purchase F0",0.48

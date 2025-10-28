@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+7,1,F6,0.5,"Change price: 0.00, reason: High data sharing reduces competition, supporting basic price for profit maximization.",3.0,6,3.0,1.0,"[0.8156535458311265, 'adaptive']"
+7,2,F6,0.5,"Change price: 0.00, reason: High data sharing reduces competition, supporting basic price for profit maximization.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,3,F6,0.5,"Change price: 0.00, reason: High share rate reduces competition, optimizing profit at basic price with uniform valuations.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,4,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit at optimal price with high share rate and uniform valuations.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,5,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit at optimal price with high share rate and uniform valuations based on historical consistency.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,6,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,7,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit with high share rate and consistent sales history.",3.0,6,3.0,0.95,"[1.0, 'adaptive']"
+7,8,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit with high share rate and consistent sales history.",3.0,6,3.0,1.0,"[0.95, 'adaptive']"
+7,9,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,10,F6,0.5,"Change price: 0.00, reason: Maintains maximum profit with high share rate and consistent sales history.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"

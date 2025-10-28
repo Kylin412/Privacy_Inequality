@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+9,1,F8,0.5,"Change price: 0.00, reason: Optimal for linear demand from recommendations with uniform valuations.",1.0,2,1.0,0.95,"[0.20670633826069074, 'adaptive']"
+9,2,F8,0.6,"Change price: 0.10, reason: Increase to optimize profit with high share rate and competition, reducing consumer search and allowing higher pricing.",1.2,2,1.2,1.0,"[0.95, 'adaptive']"
+9,3,F8,0.76,"Change price: 0.16, reason: Increase to maximize profit with high share rate reducing search and enabling higher pricing.",1.52,2,1.52,1.0,"[1.0, 'adaptive']"
+9,4,F8,0.78,"Change price: 0.02, reason: Increase to align with top competitors' pricing and capitalize on high share rate for higher profit.",1.56,2,1.56,0.95,"[1.0, 'adaptive']"
+9,5,F8,0.8,"Change price: 0.02, reason: Increase to capitalize on high share rate and align with top competitors for higher profit.",1.6,2,1.6,1.0,"[0.95, 'adaptive']"
+9,6,F8,0.78,"Change price: -0.02, reason: Decrease to align with top competitors' pricing and potentially increase sales for higher profit.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+9,7,F8,0.8,"Change price: 0.02, reason: Increase to capitalize on high share rate and stable sales for higher profit, aligning with competitors.",1.6,2,1.6,0.9,"[1.0, 'adaptive']"
+9,8,F8,0.82,"Change price: 0.02, reason: Increase to maximize profit with consistent sales and high share rate, aligning with top competitors.",0.0,0,0.0,0.6,"[0.9, 'adaptive']"
+9,9,F8,0.5,"Change price: -0.32, reason: Decrease to maximize expected profit by optimizing price for predicted share rate of 0.6.",1.0,2,1.0,0.9,"[0.6, 'adaptive']"
+9,10,F8,0.8,"Change price: 0.30, reason: Increase to capitalize on high predicted share rate and align with competitors for higher profit.",1.6,2,1.6,1.0,"[0.9, 'adaptive']"

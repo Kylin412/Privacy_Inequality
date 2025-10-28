@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+4,1,F3,0.52,"Change price: 0.02, reason: High share rate boosts captive demand, allowing a slight price increase to maximize profit.",3.12,6,3.12,0.95,"[0.9422338745560115, 'adaptive']"
+4,2,F3,0.54,"Change price: 0.02, reason: High share rate sustains captive demand, enabling slight price increase for higher profit.",3.24,6,3.24,1.0,"[0.95, 'adaptive']"
+4,3,F3,0.56,"Change price: 0.02, reason: High share rate sustains captive demand, enabling slight price increase to boost profit.",3.36,6,3.36,1.0,"[1.0, 'adaptive']"
+4,4,F3,0.58,"Change price: 0.02, reason: High share rate sustains captive demand, enabling slight price increase to boost profit.",3.48,6,3.48,1.0,"[1.0, 'adaptive']"
+4,5,F3,0.6,"Change price: 0.02, reason: High share rate maintains captive demand, allowing slight price increase to maximize profit.",3.6,6,3.6,1.0,"[1.0, 'adaptive']"
+4,6,F3,0.62,"Change price: 0.02, reason: High share rate sustains captive demand, allowing slight price increase to boost profit.",3.72,6,3.72,0.95,"[1.0, 'adaptive']"
+4,7,F3,0.64,"Change price: 0.02, reason: High share rate maintains captive demand, enabling slight price increase to maximize profit.",3.84,6,3.84,0.9,"[0.95, 'adaptive']"
+4,8,F3,0.66,"Change price: 0.02, reason: High share rate sustains captive demand, allowing slight price increase to boost profit.",3.3,5,3.3,0.9,"[0.9, 'adaptive']"
+4,9,F3,0.64,"Change price: -0.02, reason: Price increase reduced sales and profit, so decreasing to regain demand and boost revenue.",3.84,6,3.84,0.95,"[0.9, 'adaptive']"
+4,10,F3,0.64,"Change price: 0.00, reason: High share rate and recent sales recovery support maintaining price to sustain profit.",3.84,6,3.84,1.0,"[0.95, 'adaptive']"

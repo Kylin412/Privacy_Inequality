@@ -1,0 +1,35 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (likely around 0.02 for 2 firms).",-1,Defaulted after 3 fails. Best Profit: -0.16 -> Choice: -1,"C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.16@F1) → Leave Market",0.0
+2,2,C15,False,"No, because the privacy value (0.046) likely exceeds the potential search cost savings (around 0.02 for 2 firms).",-1,Defaulted after 3 fails. Best Profit: -0.15 -> Choice: -1,"C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Leave Market",0.0
+2,3,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.20, and as a rational consumer, I won't leave without buying.  
+- The net revenue (0.154) remains positive after accounting for search cost and privacy value.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2
+2,4,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.15@F0) → Purchase F0",0.13
+2,5,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.15@F0) → Purchase F0",0.15
+2,6,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.15@F0) → Purchase F0",0.15
+2,7,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.15@F0) → Purchase F0",0.15
+2,8,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.15@F0) → Purchase F0",0.13
+2,9,C15,False,"No, because the privacy value (0.046) exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.15@F0) → Purchase F0",0.13
+2,10,C15,False,"No, because the privacy value (0.046) still exceeds the potential search cost savings (around 0.02 for 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.15.  
+- As a rational consumer, I won't leave without buying when a positive option exists.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.15@F0) → Purchase F0",0.15

@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+3,1,F0,0.5,"Change price: 0.00, reason: high data sharing reduces competition, keep price to maximize profit.",2.5,5,2.5,0.7,"[0.7405392102493066, 'adaptive']"
+3,2,F0,0.58,"Change price: 0.08, reason: High data sharing rate reduces consumer search, allowing higher pricing to boost profit.",2.9,5,2.9,0.4,"[0.7, 'adaptive']"
+3,3,F0,0.6,"Change price: 0.02, reason: Moderate share rate limits consumer search, allowing slight price increase to boost profit while maintaining demand.",1.8,3,1.8,0.5,"[0.4, 'adaptive']"
+3,4,F0,0.6,"Change price: 0.00, reason: Moderate share rate reduces search, maintaining demand and profit stability.",2.4,4,2.4,0.5,"[0.5, 'adaptive']"
+3,5,F0,0.62,"Change price: 0.02, reason: Moderate share rate reduces consumer search, allowing slight price increase to boost profit while maintaining demand.",2.48,4,2.48,0.5,"[0.5, 'adaptive']"
+3,6,F0,0.64,"Change price: 0.02, reason: Moderate share rate reduces consumer search, allowing slight price increase to boost profit.",2.56,4,2.56,0.45,"[0.5, 'adaptive']"
+3,7,F0,0.66,"Change price: 0.02, reason: Moderate share rate reduces search, allowing slight price increase to boost profit.",2.64,4,2.64,0.45,"[0.45, 'adaptive']"
+3,8,F0,0.68,"Change price: 0.02, reason: Moderate share rate reduces search, allowing slight price increase to boost profit.",2.04,3,2.04,0.5,"[0.45, 'adaptive']"
+3,9,F0,0.66,"Change price: -0.02, reason: Price increase reduced sales and profit, decrease to boost demand.",1.98,3,1.98,0.5,"[0.5, 'adaptive']"
+3,10,F0,0.64,"Change price: -0.02, reason: Decrease price to increase sales and recapture lost demand, improving profit in competitive market.",2.56,4,2.56,0.5,"[0.5, 'adaptive']"

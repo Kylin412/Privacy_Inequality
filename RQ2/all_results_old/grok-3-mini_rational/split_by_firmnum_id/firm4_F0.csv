@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+4,1,F0,0.5,"Change price: 0.00, reason: high share rate increases buying likelihood, justifying basic price of 0.50 for uniform valuations.",1.0,2,1.0,0.7,"[0.7, 'equilibrium']"
+4,2,F0,0.6,"Change price: 0.10, reason: High share rate and competition boost recommendation demand, allowing higher pricing to maximize profit.",1.2,2,1.2,0.7,"[0.7, 'equilibrium']"
+4,3,F0,0.6,"Change price: 0.00, reason: High share rate and competition maintain demand through recommendations, justifying price stability to maximize profit.",1.2,2,1.2,0.7,"[0.7, 'equilibrium']"
+4,4,F0,0.62,"Change price: 0.02, reason: High share rate and stable demand justify price increase to boost profit.",1.24,2,1.24,0.7,"[0.7, 'equilibrium']"
+4,5,F0,0.6,"Change price: -0.02, reason: Match competitors' price to increase sales and profit.",1.2,2,1.2,0.7,"[0.7, 'equilibrium']"
+4,6,F0,0.6,"Change price: 0.00, reason: High share rate and stable demand sustain profitability, avoiding risk from price changes.",1.2,2,1.2,0.7,"[0.7, 'equilibrium']"
+4,7,F0,0.62,"Change price: 0.02, reason: High share rate and stable sales justify price increase to boost profit.",1.24,2,1.24,0.7,"[0.7, 'equilibrium']"
+4,8,F0,0.64,"Change price: 0.02, reason: High share rate and stable sales justify price increase to boost profit.",1.28,2,1.28,0.7,"[0.7, 'equilibrium']"
+4,9,F0,0.66,"Change price: 0.02, reason: High share rate and stable sales justify price increase to boost profit.",1.32,2,1.32,0.7,"[0.7, 'equilibrium']"
+4,10,F0,0.68,"Change price: 0.02, reason: High share rate and consistent sales justify price increase to boost profit.",1.36,2,1.36,0.7,"[0.7, 'equilibrium']"

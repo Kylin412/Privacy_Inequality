@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+9,1,F1,0.5,"Change price: 0.00, reason: Optimal price for profit maximization with full data sharing and equal recommendation chances.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,2,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,3,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,4,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,5,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,6,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,7,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,8,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,9,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"
+9,10,F1,0.5,"Change price: 0.00, reason: Optimal with full share rate and stable competition.",2.0,4,2.0,1.0,"[1.0, 'equilibrium']"

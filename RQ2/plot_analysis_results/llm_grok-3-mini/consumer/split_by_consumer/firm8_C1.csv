@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+8,1,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations outweighs the privacy value of 0.032.",6,"### Decision:
+I'll **purchase Firm 6** (choose number 6) because: 
+- It offers a positive profit of 0.21.
+- As a rational consumer, I won't leave without buying when positive profit is available.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.21@F6) → Purchase F6",0.18
+8,2,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.16, and as a rational consumer, I won't leave without buying when positive profit is available.  
+- Further searching would incur additional costs (0.02), potentially reducing overall revenue.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.16@F6) → Purchase F6",0.13
+8,3,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.11, and as a rational consumer, I won't leave without buying when positive profit is available.  
+- Further searching would incur an additional cost of 0.02, potentially reducing overall revenue without guaranteed improvement.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.11@F6) → Purchase F6",0.08
+8,4,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.06, and as a rational consumer, I won't leave without buying when positive profit is available.  
+- Further searching would incur an additional cost of 0.02, potentially reducing overall revenue without guaranteed improvement.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.06@F6) → Purchase F6",0.03
+8,5,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.01.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.01@F6) → Purchase F6",-0.02
+8,6,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit (-0.04 for Firm 6), so purchasing would reduce revenue.  
+- Further searching incurs a 0.02 cost with no guarantee of improvement, potentially leading to overall negative revenue.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:-0.04@F6) → Leave Market",-0.03
+8,7,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.01.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.01@F6) → Purchase F6",-0.02
+8,8,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit (-0.04 for Firm 6), so purchasing would reduce revenue.  
+- Further searching incurs a 0.02 cost with no guarantee of improvement, potentially leading to overall negative revenue.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:-0.04@F6) → Leave Market",-0.03
+8,9,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.01.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.01@F6) → Purchase F6",-0.02
+8,10,C1,True,"Yes, because the potential reduction in search costs from personalized recommendations with 8 firms outweighs the 0.032 privacy value.",6,"### Decision:  
+I'll **purchase Firm 6** (choose number 6) because:  
+- It offers a positive profit of 0.01.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C1 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.01@F6) → Purchase F6",-0.02

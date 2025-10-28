@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+8,1,F6,0.75,"Change price: 0.25, reason: data sharing reduces price sensitivity, allowing higher profit-maximizing price.",0.75,1,0.75,0.95,"[0.1712004452463496, 'adaptive']"
+8,2,F6,0.7,"Change price: -0.05, reason: High share rate reduces search and supports higher prices, but slight reduction from last round's poor sales to increase volume and profit.",0.7,1,0.7,1.0,"[0.95, 'adaptive']"
+8,3,F6,0.8,"Change price: 0.10, reason: High share rate reduces search, allowing price increase to boost profit per sale, mirroring top competitors' success.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,4,F6,0.5,"Change price: -0.30, reason: Set price to 0.50 to maximize expected profit by optimizing for uniform valuations and high share rate reducing search.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+8,5,F6,0.8,"Change price: 0.30, reason: Increase price to 0.80 to maximize profit with high share rate and consistent sales history.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,6,F6,0.9,"Change price: 0.10, reason: Stable sales history justifies price increase to boost profit.",0.9,1,0.9,1.0,"[1.0, 'adaptive']"
+8,7,F6,0.5,"Change price: -0.40, reason: Lower price to maximize expected profit with uniform valuations and high share rate, increasing sales likelihood.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+8,8,F6,0.8,"Change price: 0.30, reason: Increase price to 0.80 to capitalize on high share rate and align with top competitors for higher profit.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"
+8,9,F6,0.9,"Change price: 0.10, reason: High share rate and consistent sales history justify price increase to 0.90 for higher profit.",0.9,1,0.9,1.0,"[1.0, 'adaptive']"
+8,10,F6,0.8,"Change price: -0.10, reason: Match top competitors' price to increase sales volume and profit.",0.8,1,0.8,1.0,"[1.0, 'adaptive']"

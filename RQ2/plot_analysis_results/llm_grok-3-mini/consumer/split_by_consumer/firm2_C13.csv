@@ -1,0 +1,38 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C13,False,"No, because the potential reduction in search cost (likely 0.02 for one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Both firms offer negative profits (-0.27 and -0.29), resulting in overall revenue loss.  
+- Leaving incurs only the search cost (0.02) plus privacy value (0.034), minimizing total loss at -0.056.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.27@F0) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.27@F0) → Leave Market",-0.02
+2,2,C13,False,"No, because the potential reduction in search cost (likely 0.02 for one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Both firms offer negative profits (-0.28 and -0.22), making purchases result in net losses.  
+- Leaving minimizes total loss to just search cost (0.02) plus privacy value (0.034).","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F1) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.22@F0) → Purchase F0",-0.24
+2,3,C13,False,"No, because the potential reduction in search cost (at most 0.02 for one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.27), resulting in net loss.  
+- Searching further would add 0.02 cost, increasing total loss without likely positive return.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.27@F1) → Leave Market",0.0
+2,4,C13,False,"No, because the potential reduction in search cost (at most 0.02 for avoiding one paid search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in a net loss if purchased.  
+- Searching further costs 0.02, increasing total loss without likely positive return, while leaving minimizes loss to just the privacy value (0.034).","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.22@F0) → Purchase F0",-0.22
+2,5,C13,False,"No, because the potential reduction in search cost (at most 0.02 for avoiding one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in a net loss if purchased.  
+- Searching further would add 0.02 cost, increasing total loss without likely positive return.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.22@F0) → Purchase F0",-0.22
+2,6,C13,False,"No, because the potential reduction in search cost (likely at most 0.02 for one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in a net loss if purchased.  
+- Searching further costs 0.02, increasing total loss without likely positive return, while leaving minimizes loss to just the privacy value (0.034).","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.22@F0) → Purchase F0",-0.22
+2,7,C13,False,"No, because the potential reduction in search cost (at most 0.02 for one additional search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in a net loss if purchased.  
+- Searching further costs 0.02, increasing total loss without likely positive return based on past experiences.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.22@F0) → Purchase F0",-0.22
+2,8,C13,False,"No, because the potential reduction in search cost (at most 0.02 for saving one search) is less than the privacy value (0.034), making it not worth the trade-off.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.22), resulting in a net loss if purchased.  
+- Searching further costs 0.02, increasing total loss without likely positive return based on past experiences.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.22@F0) → Purchase F0",-0.22
+2,9,C13,False,"No, because the potential reduction in search cost (at most 0.02 for saving one search) is less than the privacy value (0.034), making it not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.28), resulting in a net loss.  
+- Searching further costs 0.02, increasing total loss without likely positive return based on past experiences.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F1) → Leave Market",0.0
+2,10,C13,False,"No, because the potential reduction in search cost (at most 0.02) is still less than the privacy value (0.034), making it not worth the trade-off.",-1,Defaulted after 3 fails. Best Profit: -0.28 -> Choice: -1,"C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.28@F1) → Leave Market",0.0

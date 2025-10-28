@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+2,1,F1,0.49,"Change price: -0.01, reason: low data sharing increases competition, so undercut to capture more market share.",2.45,5,2.45,0.05,"[0.09041299803854774, 'adaptive']"
+2,2,F1,0.5,"Change price: 0.01, reason: Undercutting failed to gain market share last round, so increase to match competitor and boost profit margin with random recommendation effects.",3.5,7,3.5,0.0,"[0.05, 'adaptive']"
+2,3,F1,0.5,"Change price: 0.00, reason: Maintain price after high profit with low share rate.",2.5,5,2.5,0.0,"[0.0, 'adaptive']"
+2,4,F1,0.5,"Change price: 0.00, reason: Maintain price to maximize profit with low share rate and equal competitor pricing.",2.0,4,2.0,0.0,"[0.0, 'adaptive']"
+2,5,F1,0.49,"Change price: -0.01, reason: Undercut to capture more market share with zero share rate enabling full price competition.",1.96,4,1.96,0.0,"[0.0, 'adaptive']"
+2,6,F1,0.5,"Change price: 0.01, reason: Match competitor's price to boost profit margin after undercutting failed to increase market share with zero share rate.",3.0,6,3.0,0.0,"[0.0, 'adaptive']"
+2,7,F1,0.5,"Change price: 0.00, reason: Maintain price to sustain profit after undercutting failed and competitor matches.",2.5,5,2.5,0.0,"[0.0, 'adaptive']"
+2,8,F1,0.5,"Change price: 0.00, reason: Maintain price to sustain profit with zero share rate and competitor matching, avoiding risks from past undercutting failures.",3.0,6,3.0,0.0,"[0.0, 'adaptive']"
+2,9,F1,0.5,"Change price: 0.00, reason: Maintain price to sustain profit with zero share rate and stable competition, avoiding risks from past undercutting failures.",3.0,6,3.0,0.0,"[0.0, 'adaptive']"
+2,10,F1,0.5,"Change price: 0.00, reason: Maintain price to sustain profit with zero share rate and stable competition, avoiding risks from past undercutting failures.",1.5,3,1.5,0.0,"[0.0, 'adaptive']"

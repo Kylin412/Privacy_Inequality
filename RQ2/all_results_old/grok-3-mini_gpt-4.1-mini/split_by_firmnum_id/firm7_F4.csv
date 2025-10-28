@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+7,1,F4,0.5,"Change price: 0.00, reason: Symmetric market with uniform valuations suggests optimal price is 0.50.",0.0,0,0.0,1.0,"[0.39475137238801206, 'adaptive']"
+7,2,F4,0.5,"Change price: 0.00, reason: Optimal price of 0.50 maximizes profit with high share rate and uniform valuations, despite last round's zero sales being likely random.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,3,F4,0.5,"Change price: 0.00, reason: Optimal price maximizes profit with high share rate, uniform valuations, and random recommendations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,4,F4,0.5,"Change price: 0.00, reason: Optimal price maximizes expected profit with high share rate and uniform valuations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,5,F4,0.5,"Change price: 0.00, reason: Optimal price maximizes expected profit with high share rate and uniform valuations, despite past sales variance.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,6,F4,0.5,"Change price: 0.00, reason: Maintains maximum expected profit with high share rate and uniform valuations based on historical consistency and market data.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,7,F4,0.5,"Change price: 0.00, reason: Optimal price of 0.50 maximizes expected profit with high share rate and uniform valuations based on market symmetry.",0.0,0,0.0,0.95,"[1.0, 'adaptive']"
+7,8,F4,0.5,"Change price: 0.00, reason: maintains optimal price for maximum expected profit with high share rate and uniform valuations, aligning with successful competitors.",0.0,0,0.0,1.0,"[0.95, 'adaptive']"
+7,9,F4,0.5,"Change price: 0.00, reason: Maintains maximum expected profit with high share rate and uniform valuations, aligning with successful competitors.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+7,10,F4,0.5,"Change price: 0.00, reason: Maintains maximum expected profit at optimal price with high share rate and uniform valuations, aligning with successful competitors.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"

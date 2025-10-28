@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+6,1,F4,0.42,"Change price: -0.08, reason: increase demand from non-sharers to maximize profit.",0.84,2,0.84,1.0,"[0.8539425593591731, 'adaptive']"
+6,2,F4,0.55,"Change price: 0.13, reason: High share rate reduces consumer search, allowing higher pricing to maximize profit.",1.1,2,1.1,1.0,"[1.0, 'adaptive']"
+6,3,F4,0.5,"Change price: -0.05, reason: Adjust to optimal price of 0.50 to maximize expected profit based on uniform valuation and high share rate.",1.0,2,1.0,1.0,"[1.0, 'adaptive']"
+6,4,F4,0.55,"Change price: 0.05, reason: High share rate reduces search, allowing higher pricing to boost profit based on stable sales history.",1.1,2,1.1,1.0,"[1.0, 'adaptive']"
+6,5,F4,0.5,"Change price: -0.05, reason: Adjust to optimal 0.50 to maximize expected profit with uniform valuations and high share rate.",1.0,2,1.0,1.0,"[1.0, 'adaptive']"
+6,6,F4,0.55,"Change price: 0.05, reason: High share rate minimizes search, justifying price increase to boost profit based on historical gains at higher prices.",1.1,2,1.1,1.0,"[1.0, 'adaptive']"
+6,7,F4,0.55,"Change price: 0.00, reason: High share rate reduces search, optimizing profit with stable sales history.",1.1,2,1.1,0.95,"[1.0, 'adaptive']"
+6,8,F4,0.55,"Change price: 0.00, reason: High share rate minimizes search, maintaining stable sales and profit with current pricing.",1.1,2,1.1,1.0,"[0.95, 'adaptive']"
+6,9,F4,0.5,"Change price: -0.05, reason: Adjust to optimal 0.50 to maximize expected profit with uniform valuations and high share rate.",1.0,2,1.0,1.0,"[1.0, 'adaptive']"
+6,10,F4,0.55,"Change price: 0.05, reason: High share rate reduces search, justifying price increase to boost profit based on stable sales history.",1.1,2,1.1,1.0,"[1.0, 'adaptive']"

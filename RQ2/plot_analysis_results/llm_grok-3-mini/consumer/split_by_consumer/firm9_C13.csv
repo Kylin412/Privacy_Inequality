@@ -1,0 +1,38 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+9,1,C13,True,"Yes, because the potential reduction in search costs from personalized recommendations outweighs the privacy value of 0.042.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only searched firm has negative profit (-0.03), and with personalized recommendations sorting from highest to lowest value, further firms are likely worse.  
+- Additional searches incur a 0.02 cost, increasing total costs beyond the current -0.042 (privacy value alone), with no expected positive profit.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.03@F5) → Leave Market",-0.04
+9,2,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.08), and personalized recommendations suggest subsequent firms will be worse.  
+- Further searches would incur costs (0.02 each) without expected positive profit, worsening total revenue.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.08@F5) → Leave Market",-0.04
+9,3,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,Defaulted after 3 fails. Best Profit: -0.13 -> Choice: -1,"C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.13@F5) → Leave Market",-0.04
+9,4,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.18), making purchase unprofitable.  
+- Personalized recommendations suggest subsequent firms are worse, and additional searches would only increase costs without potential for positive revenue.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.18@F5) → Leave Market",-0.04
+9,5,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.23), making purchase unprofitable.  
+- Personalized recommendations suggest subsequent firms are worse, and additional searches would increase costs without potential for positive revenue.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.23@F5) → Leave Market",-0.04
+9,6,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.28), and as the best option with personalized recommendations, further firms will be worse.  
+- Additional searches cost 0.02 and risk worsening total revenue without potential for positive profit.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.28@F5) → Leave Market",-0.04
+9,7,C13,True,"Yes, because with 9 firms, personalized recommendations will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.33), and as the best option with personalized recommendations, further firms will be worse.  
+- Additional searches cost 0.02 and risk worsening total revenue without potential for positive profit.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.33@F5) → Leave Market",-0.04
+9,8,C13,True,"Yes, because with 9 firms, personalized recommendations will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.38), and as the best option with personalized recommendations, further firms will be worse.  
+- Additional searches cost 0.02 and would increase total costs without potential for positive profit.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.38@F5) → Leave Market",-0.04
+9,9,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.33), and as the best option with personalized recommendations, further firms will be worse.  
+- Additional searches cost 0.02 and would increase total costs without potential for positive profit.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.33@F5) → Leave Market",-0.04
+9,10,C13,True,"Yes, because personalized recommendations with 9 firms will likely reduce search costs more than the 0.042 privacy loss.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.35), making purchase unprofitable.  
+- Personalized recommendations indicate subsequent firms are worse, and further searches would increase costs without potential for positive revenue.","C13 Search #1 (Searched:1/9, SearchCost:0.00, BestProfit:-0.35@F5) → Leave Market",-0.04

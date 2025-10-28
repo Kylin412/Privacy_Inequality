@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+4,1,C17,False,"No, because the potential search cost savings (up to 0.06) may not exceed the privacy value of 0.051, making it not worth the risk.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- All searched firms have negative profits, making any purchase result in overall negative revenue.  
+- Searching another firm would add 0.02 to search costs, increasing total losses without guaranteed positive profit.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.39@F3) → Search Next; C17 Search #2 (Searched:2/4, SearchCost:0.02, BestProfit:-0.39@F3) → Search Next; C17 Search #3 (Searched:3/4, SearchCost:0.04, BestProfit:-0.39@F3) → Purchase F0",-0.46
+4,2,C17,False,"No, because the potential search cost savings, even with 4 firms, may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only searched firm has negative profit (-0.49), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.49@F3) → Leave Market",0.0
+4,3,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.68), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.68@F2) → Leave Market",0.0
+4,4,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only searched firm has negative profit (-0.42), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.42@F0) → Leave Market",0.0
+4,5,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.42), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.42@F0) → Leave Market",0.0
+4,6,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.42), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.42@F0) → Leave Market",0.0
+4,7,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.54), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.54@F3) → Leave Market",0.0
+4,8,C17,False,"No, because the potential search cost savings, even with 4 firms, may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.42), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.42@F0) → Leave Market",0.0
+4,9,C17,False,"No, because the potential search cost savings, even with 4 firms, may not reliably exceed the privacy value of 0.051.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.42), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.42@F0) → Leave Market",0.0
+4,10,C17,False,"No, because the potential search cost savings with 4 firms may not reliably exceed the privacy value of 0.051, making it not worth the risk.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.63), so purchasing would result in overall negative revenue.  
+- Searching another firm would add 0.02 in costs, increasing potential losses without a guaranteed positive profit based on past searches.","C17 Search #1 (Searched:1/4, SearchCost:0.00, BestProfit:-0.63@F2) → Leave Market",0.0

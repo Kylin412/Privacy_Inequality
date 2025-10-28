@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+5,1,F3,0.5,"Change price: 0.00, reason: Optimal to maximize profit with high share rate and symmetric competition.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,2,F3,0.5,"Change price: 0.00, reason: Optimal to maximize profit with high share rate and symmetric competition.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,3,F3,0.5,"Change price: 0.00, reason: Optimal to maintain profit with consistent high sales and symmetric competition at full share rate.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,4,F3,0.5,"Change price: 0.00, reason: Optimal to maximize profit with stable high sales and symmetric competition at full share rate.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,5,F3,0.5,"'Change price: 0.00, reason: Optimal to maintain profit with consistent high sales and symmetric competition at full share rate.'",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,6,F3,0.5,"'Change price: 0.00, reason: Optimal to maintain profit with consistent high sales and symmetric competition at full share rate.'",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,7,F3,0.5,"Change price: 0.00, reason: Optimal to maintain profit with consistent high sales and symmetric competition at full share rate.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,8,F3,0.5,"Change price: 0.00, reason: Optimal to maintain profit in symmetric equilibrium with full share rate and consistent sales history.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,9,F3,0.5,"Change price: 0.00, reason: Optimal to maintain profit in symmetric equilibrium with full share rate and consistent sales history.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"
+5,10,F3,0.5,"Change price: 0.00, reason: Optimal to maintain profit in symmetric equilibrium with full share rate and consistent sales history.",4.0,8,4.0,1.0,"[1.0, 'equilibrium']"

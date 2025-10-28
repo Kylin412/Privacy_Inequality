@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 from avoiding a second search).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.29).  
+- Maximizes total revenue at 0.219 after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.51@F1) → Search Next; C2 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.29@F0) → Purchase F0",0.27
+2,2,C2,False,"No, because the privacy value (0.051) outweighs the potential search cost savings (e.g., 0.02 for an extra search).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.50@F1) → Search Next; C2 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.34@F0) → Purchase F0",0.32
+2,3,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for avoiding an extra search).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.39).  
+- Maximizes total revenue at 0.339 after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.39@F0) → Purchase F0",0.39
+2,4,C2,False,"No, because the privacy value (0.051) outweighs the potential search cost savings (e.g., 0.02 for an extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Rational to buy from searched firms with positive profit.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.34
+2,5,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for one extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.50@F1) → Search Next; C2 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.34@F0) → Purchase F0",0.32
+2,6,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for an extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Rational to buy from searched firm with positive profit.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.34
+2,7,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for one extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.50@F1) → Search Next; C2 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.34@F0) → Purchase F0",0.32
+2,8,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for an extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue at 0.289 after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.34
+2,9,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for one extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue at 0.289 after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.34
+2,10,C2,False,"No, because the privacy value (0.051) exceeds the potential search cost savings (e.g., 0.02 for an extra search with only 2 firms).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers positive profit (0.34).  
+- Maximizes total revenue at 0.32 after costs.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.50@F1) → Search Next; C2 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.34@F0) → Purchase F0",0.32

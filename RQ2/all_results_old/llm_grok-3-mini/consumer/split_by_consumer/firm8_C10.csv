@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+8,1,C10,True,"Yes, because the personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- The firm offers a positive profit of 0.2, which is beneficial after costs.
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.20@F3) → Purchase F3",0.15
+8,2,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.1, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.05
+8,3,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit, making purchase unprofitable after costs.  
+- Further searching would increase search costs without likely yielding positive revenue.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.00@F3) → Search Next; C10 Search #2 (Searched:2/8, SearchCost:0.02, BestProfit:0.00@F3) → Leave Market",-0.07
+8,4,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.1, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.05
+8,5,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.1, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.05
+8,6,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.05, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.05@F3) → Purchase F3",0.0
+8,7,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit, making purchase unprofitable after costs.  
+- Further searching would increase search costs without likely yielding positive revenue.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.00@F3) → Search Next; C10 Search #2 (Searched:2/8, SearchCost:0.02, BestProfit:0.00@F3) → Leave Market",-0.07
+8,8,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.05, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.05@F3) → Purchase F3",0.0
+8,9,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.05, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.05@F3) → Purchase F3",0.0
+8,10,C10,True,"Yes, because personalized recommendations with 8 firms will likely reduce search costs by more than the 0.046 privacy value.",3,"### Decision:  
+I'll **purchase Firm 3** (choose number 3) because:  
+- The firm offers a positive profit of 0.05, which is beneficial after costs.  
+- As a rational consumer, I won't leave without buying when positive profit is available.","C10 Search #1 (Searched:1/8, SearchCost:0.00, BestProfit:0.05@F3) → Purchase F3",0.0

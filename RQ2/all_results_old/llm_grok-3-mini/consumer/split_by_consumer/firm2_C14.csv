@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+2,1,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (likely 0.02 for one additional search), making not sharing more beneficial for maximizing total revenue.",1,"### Decision:  
+I'll **purchase Firm 1** because:  
+- It offers a positive profit of 0.05, which aligns with rationality to buy when available.  
+- Searching would add a 0.02 cost, potentially erasing the small net revenue after subtracting privacy value.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.05@F1) → Purchase F1",0.05
+2,2,C14,False,"No, because the privacy value (0.044) outweighs the potential search cost savings (at most 0.02 for one extra search), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which I won't pass up per my rational decision rule.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,3,C14,False,"No, because the privacy value (0.044) still outweighs the potential search cost savings (at most 0.02 for one extra search), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.40, which I won't pass up per my rational decision rule.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.40@F0) → Purchase F0",0.4
+2,4,C14,False,"No, because the privacy value (0.044) still outweighs the potential search cost savings (at most 0.02 for an extra search), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which I won't pass up per my rational decision rule.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,5,C14,False,"No, because the privacy value (0.044) still outweighs the potential search cost savings (at most 0.02 for an extra search), making not sharing more beneficial for maximizing total revenue.",1,"### Decision:  
+I'll **purchase Firm 1** because:  
+- It offers a positive profit of 0.06, which aligns with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, risking negative total revenue after subtracting privacy value.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.06@F1) → Purchase F1",0.06
+2,6,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (at most 0.02 for an extra search with only 2 firms), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which aligns with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,7,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (at most 0.02 for an extra search with only 2 firms), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which aligns with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,8,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (at most 0.02 for an extra search with only 2 firms), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which aligns with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,9,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (at most 0.02 for one extra search with only 2 firms), making not sharing more beneficial for maximizing total revenue.",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.35, which aligns with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.35@F0) → Purchase F0",0.35
+2,10,C14,False,"No, because the privacy value (0.044) exceeds the potential search cost savings (at most 0.02 for avoiding one extra search with only 2 firms).",1,"### Decision:  
+I'll **purchase Firm 1** because:  
+- It offers a positive profit of 0.06, aligning with my rational rule to buy when available.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without guaranteed benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.06@F1) → Purchase F1",0.06

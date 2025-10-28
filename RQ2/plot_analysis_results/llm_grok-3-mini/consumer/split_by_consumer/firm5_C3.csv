@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+5,1,C3,True,"Yes, because the potential reduction in search costs (e.g., saving more than 0.028 through fewer searches) outweighs the privacy value of 0.028.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.14, and as a rational consumer, I won't leave without buying.  
+- The total revenue (0.112) exceeds the cost of leaving (-0.028).","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.14@F0) → Purchase F0",0.11
+5,2,C3,True,"Yes, because the potential search cost savings with 5 firms likely exceed the 0.028 privacy value.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.09, and as a rational consumer, I won't leave without buying.  
+- Searching further would incur an additional cost of 0.02, which isn't justified when a positive option exists.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.09@F0) → Purchase F0",0.06
+5,3,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.04, and as a rational consumer, I won't leave without buying.  
+- Searching further would add a 0.02 cost, potentially reducing overall revenue without assurance of a better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",0.01
+5,4,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit, so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.01@F0) → Purchase F0",-0.04
+5,5,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.06 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.06@F0) → Purchase F0",-0.09
+5,6,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.11 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.11@F0) → Purchase F0",-0.14
+5,7,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.06 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.06@F0) → Purchase F0",-0.09
+5,8,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.09 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.09@F0) → Purchase F0",-0.12
+5,9,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.1 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.10@F0) → Purchase F0",-0.13
+5,10,C3,True,"Yes, because with 5 firms, personalized recommendations will likely save more than 0.028 in search costs, outweighing the privacy value.",0,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- No searched firm has positive profit (-0.11 for Firm 0), so buying would result in negative revenue.  
+- Searching would add a 0.02 cost, likely worsening total revenue without a guaranteed better deal.","C3 Search #1 (Searched:1/5, SearchCost:0.00, BestProfit:-0.11@F0) → Purchase F0",-0.14

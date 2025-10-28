@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+7,1,F1,0.5,"Change price: 0.00, reason: optimal for uniform valuation with high share rate.",0.5,1,0.5,1.0,"[0.8261885751684879, 'adaptive']"
+7,2,F1,0.5,"Change price: 0.00, reason: maximizes profit with high share rate reducing search and uniform valuations favoring basic price.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,3,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with high share rate and uniform valuations.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,4,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with high share rate, uniform valuations, and equal recommendation chances.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,5,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with uniform valuations and high share rate.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,6,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with uniform valuations and high share rate.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,7,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with uniform valuations and high share rate.",0.0,0,0.0,0.95,"[1.0, 'adaptive']"
+7,8,F1,0.45,"Change price: -0.05, reason: decrease price to boost sales and profit by capturing more market share in a competitive environment with high share rate.",0.45,1,0.45,1.0,"[0.95, 'adaptive']"
+7,9,F1,0.5,"Change price: 0.05, reason: increases price to 0.50 to maximize expected profit with uniform valuations and equal recommendation chances.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"
+7,10,F1,0.5,"Change price: 0.00, reason: maximizes expected profit with uniform valuations and high share rate.",0.5,1,0.5,1.0,"[1.0, 'adaptive']"

@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+1,1,C16,False,"No, because with only 1 firm, the potential reduction in search cost from recommendations is minimal compared to the privacy value of 0.036.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The potential profit from the searched firm is negative (-0.21), resulting in overall negative revenue.  
+- Leaving avoids further losses while only incurring the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.21@F0) → Leave Market",0.0
+1,2,C16,False,"No, because with only 1 firm, sharing data offers no meaningful reduction in search costs compared to the privacy value of 0.036.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses, avoiding further costs beyond the privacy value.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,3,C16,False,"No, because with only 1 firm, sharing data offers no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,4,C16,False,"No, because with only 1 firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,5,C16,False,"No, because with only 1 firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses, avoiding any additional costs.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,6,C16,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,7,C16,False,"No, because with only 1 firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,8,C16,False,"No, because with only 1 firm, personalized recommendations provide no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,9,C16,False,"No, because with only 1 firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0
+1,10,C16,False,"No, because with only 1 firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.036 not worth the trade-off.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.18), resulting in overall negative revenue.  
+- Leaving minimizes losses to only the privacy cost of 0.036.","C16 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.18@F0) → Leave Market",0.0

@@ -1,0 +1,801 @@
+firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue,Privacy_Cost,Valuations
+2,1,C1,False,"No, privacy cost (0.031) exceeds potential search cost savings (max 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.43.
+- Search cost of 0.02 with uncertain benefit risks further loss.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F0) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,1,C2,False,"No, privacy cost (0.043) exceeds maximum potential search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The only searched firm has negative profit (-0.26).
+- Searching another firm costs 0.02 with uncertain benefit, risking loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.26@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,1,C3,True,"Yes, because the potential reduction in search cost and improved product matching from personalized recommendations outweigh the privacy cost of 0.031.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.31.
+- Searching further costs 0.02 with minimal expected gain due to sorted recommendations.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.31@F1) → Purchase F1",0.28,0.031,"[0.72, 0.8]"
+2,1,C4,False,"No, privacy cost (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.42), indicating no value in purchasing.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,1,C5,False,"No, privacy value (0.036) exceeds potential search cost savings (up to 0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Positive profit of 0.43
+- Rational to buy without further search","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.43@F1) → Purchase F1",0.43,0.036,"[0.8, 0.92]"
+2,1,C6,False,"No, privacy cost (0.038) exceeds potential search cost savings (max 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.00@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,1,C7,False,"No, privacy cost (0.032) exceeds potential search cost savings (up to 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Both firms offer negative profit.
+- Leaving minimizes total loss.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Search Next; C7 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.11@F0) → Leave Market",-0.02,0.032,"[0.39, 0.08]"
+2,1,C8,False,"No, privacy cost (0.036) exceeds potential search cost savings (max 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.36).
+- Searching another firm costs 0.02 with low expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.36@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,1,C9,False,"No, privacy cost (0.04) exceeds potential search cost savings (max 0.02 with 2 firms).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.41).
+- Searching another firm costs 0.02 with uncertain benefit, risking loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.41@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,1,C10,False,"No, privacy cost (0.047) exceeds potential search cost savings (max 0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.09.
+- Searching incurs a cost of 0.02 with uncertain improvement.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.09@F1) → Purchase F1",0.09,0.047,"[0.41, 0.58]"
+2,1,C11,False,"No, privacy cost (0.036) exceeds maximum potential search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Current firm offers positive profit of 0.11.
+- Search cost of 0.02 is not justified without expected better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.11@F1) → Purchase F1",0.11,0.036,"[0.72, 0.6]"
+2,1,C12,False,"No, privacy cost (0.055) exceeds potential search cost savings (at most 0.02 for 2 firms).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.04), indicating low potential for gain.
+- Searching costs 0.02 with no guaranteed improvement, risking loss without benefit.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,1,C13,False,"No, privacy cost (0.04) exceeds maximum potential search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.12, ensuring immediate gain.
+- Searching another firm costs 0.02 with uncertain improvement, risking reduced net revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.12@F1) → Purchase F1",0.12,0.04,"[0.39, 0.61]"
+2,1,C14,False,"No, privacy cost (0.039) exceeds maximum possible search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching incurs a cost of 0.02 with uncertain benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,1,C15,False,"No, privacy cost (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Leaving would result in a net loss from the incurred search cost.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.26@F0) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,1,C16,False,"No, privacy cost (0.038) exceeds potential search cost savings (max 0.02).",0,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Both firms have negative profit, leading to a loss if purchased.
+- Leaving minimizes total loss to only the search cost of 0.02.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Search Next; C16 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.12@F1) → Purchase F0",-0.33,0.038,"[0.19, 0.37]"
+2,1,C17,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Both firms offer negative profit.
+- Purchasing would increase total loss.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Search Next; C17 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.07@F0) → Leave Market",-0.02,0.055,"[0.43, 0.35]"
+2,1,C18,False,"No, privacy cost (0.027) exceeds potential search cost savings (max 0.02).",0,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Both firms offer negative profit, leading to losses if purchased.
+- Leaving minimizes total loss to just the search cost of -0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.06@F0) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.06@F0) → Purchase F0",-0.08,0.027,"[0.44, 0.02]"
+2,1,C19,False,"No, privacy cost (0.04) exceeds potential search cost savings (max 0.02).",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.2.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2,0.04,"[0.7, 0.58]"
+2,1,C20,False,"No, privacy cost (0.026) exceeds potential search cost savings (up to 0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.13.
+- Searching further costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.13@F0) → Purchase F0",0.13,0.026,"[0.63, 0.82]"
+2,2,C1,False,"No, privacy value (0.031) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with uncertain benefit, risking further loss.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,2,C2,False,"No, privacy cost (0.043) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.25).
+- Searching another firm costs 0.02 with uncertain benefit, likely resulting in loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.25@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,2,C3,False,"No, privacy cost (0.031) exceeds maximum search cost savings (0.02), and with only 2 firms, matching benefits are limited.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational given current positive profit.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,2,C4,False,"No, privacy cost (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43).
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,2,C5,False,"No, privacy cost (0.036) exceeds maximum possible search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Positive profit of 0.31 ensures rational purchase.
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.31@F0) → Purchase F0",0.31,0.036,"[0.8, 0.92]"
+2,2,C6,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from the searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,2,C7,False,"No, privacy cost (0.032) exceeds potential search cost savings (up to 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Current firm has negative profit (-0.1).
+- Search cost (0.02) risks loss without guaranteed better outcome.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.10@F0) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,2,C8,False,"No, privacy value (0.036) exceeds potential search cost savings (up to 0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.14).
+- Searching another firm costs 0.02 with uncertain and likely low benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.14@F0) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,2,C9,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.42).
+- Searching another firm costs 0.02 with uncertain benefit, likely resulting in loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,2,C10,False,"No, privacy value (0.047) exceeds potential search cost savings (up to 0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Searching incurs a cost of 0.02 with uncertain improvement.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.047,"[0.41, 0.58]"
+2,2,C11,False,"No, privacy cost (0.036) exceeds maximum potential search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Current firm offers positive profit of 0.1.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.10@F1) → Purchase F1",0.1,0.036,"[0.72, 0.6]"
+2,2,C12,False,"No, privacy cost (0.055) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.03), offering no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.03@F1) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,2,C13,False,"No, privacy value (0.04) exceeds potential search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.11, ensuring a net gain after search costs.
+- Leaving without purchasing would waste the incurred search cost of 0.02.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.10@F0) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.11@F1) → Purchase F1",0.09,0.04,"[0.39, 0.61]"
+2,2,C14,False,"No, privacy cost (0.039) exceeds maximum possible search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.28.
+- Searching costs 0.02 with uncertain benefits and may not improve the outcome.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.28@F1) → Purchase F1",0.28,0.039,"[0.88, 0.78]"
+2,2,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.27.
+- Leaving would result in a net loss from the incurred search cost of 0.02.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.27@F0) → Purchase F0",0.25,0.048,"[0.76, 0.49]"
+2,2,C16,False,"No, privacy cost (0.038) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.13).
+- Searching another firm costs 0.02 with uncertain and likely low benefit.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.13@F1) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,2,C17,False,"No, privacy value (0.055) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.15).
+- Searching incurs 0.02 cost with low chance of positive profit.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,2,C18,False,"No, privacy value (0.027) exceeds potential search cost savings (max 0.02).",0,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Both searched firms offer negative profit, resulting in losses if purchased.
+- Leaving minimizes total loss to only the sunk search cost of -0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.05@F0) → Search Next; C18 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:-0.05@F0) → Purchase F0",-0.07,0.027,"[0.44, 0.02]"
+2,2,C19,False,"No, privacy cost (0.04) exceeds potential search cost savings (max 0.02).",1,"### Decision:  
+I'll **purchase Firm 1** because:  
+- It offers a positive profit of 0.08.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.04,"[0.7, 0.58]"
+2,2,C20,False,"No, privacy value (0.026) exceeds maximum possible search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a high positive profit of 0.32.
+- Searching costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32,0.026,"[0.63, 0.82]"
+2,3,C1,False,"No, privacy value (0.031) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with uncertain benefit, risking loss based on past negative outcomes.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,3,C2,False,"No, privacy value (0.043) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- The searched firm offers a positive profit of 0.39.
+- Searching another firm costs 0.02 with uncertain benefit, making it irrational to delay purchase.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.39@F1) → Purchase F1",0.39,0.043,"[0.24, 0.89]"
+2,3,C3,False,"No, privacy value (0.031) exceeds maximum possible search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational given current profit.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,3,C4,False,"No, privacy value (0.051) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,3,C5,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit of 0.3 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F0) → Purchase F0",0.3,0.036,"[0.8, 0.92]"
+2,3,C6,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Searched firm offers positive profit of 0.22.
+- Rationality requires buying when positive profit exists, avoiding unnecessary search cost.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.038,"[0.72, 0.49]"
+2,3,C7,False,"No, privacy cost (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Current firm offers negative profit (-0.11).
+- Searching incurs 0.02 cost with no guaranteed better outcome.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,3,C8,False,"No, privacy value (0.036) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.37).
+- Searching another firm costs 0.02 with likely low or negative expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.37@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,3,C9,False,"No, privacy value (0.04) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.42).
+- Searching another firm costs 0.02 with low expected benefit, likely resulting in loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,3,C10,False,"No, privacy value (0.047) exceeds maximum possible search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Searching incurs a cost of 0.02 with uncertain improvement.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.047,"[0.41, 0.58]"
+2,3,C11,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Current firm offers positive profit of 0.22.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,3,C12,False,"No, privacy cost (0.055) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Searched firm has negative profit (-0.04), offering no gain.  
+- Searching costs 0.02 with no guaranteed improvement, risking loss.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,3,C13,False,"No, privacy value (0.04) exceeds maximum possible search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.11.
+- Leaving would waste the incurred search cost of 0.02.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.11@F1) → Purchase F1",0.09,0.04,"[0.39, 0.61]"
+2,3,C14,False,"No, privacy cost (0.039) exceeds maximum possible search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching costs 0.02 with uncertain benefits.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,3,C15,False,"No, privacy value (0.048) exceeds maximum possible search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Leaving would result in a net loss from the incurred search cost of 0.02.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,3,C16,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.13).
+- Searching another firm costs 0.02 with uncertain and likely low benefit based on past outcomes.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.13@F1) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,3,C17,False,"No, privacy value (0.055) exceeds maximum possible search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.07).
+- History shows no positive profits, making further search costly and unlikely to improve outcome.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,3,C18,False,"No, privacy value (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.48).
+- Searching further costs 0.02 with low likelihood of positive profit based on past patterns.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.48@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,3,C19,False,"No, privacy value (0.04) exceeds maximum possible search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** because: 
+- It offers a positive profit of 0.2.
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2,0.04,"[0.7, 0.58]"
+2,3,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a high positive profit of 0.32.
+- Searching costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32,0.026,"[0.63, 0.82]"
+2,4,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.43.
+- Additional search costs 0.02 with low likelihood of positive profit based on past negative outcomes.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F0) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,4,C2,False,"No, privacy value (0.043) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.26).
+- Searching another firm costs 0.02 with uncertain benefit, risking loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.26@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,4,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Firm 0 offers a positive profit of 0.22.
+- Searching further costs 0.02 with uncertain gain, making it irrational given current profit.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.031,"[0.72, 0.8]"
+2,4,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,4,C5,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.42 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.42@F1) → Purchase F1",0.42,0.036,"[0.8, 0.92]"
+2,4,C6,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Searched firm offers positive profit of 0.22.
+- Additional search cost of 0.02 may not justify uncertain benefits from another firm.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.038,"[0.72, 0.49]"
+2,4,C7,False,"No, privacy value (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.11).
+- Searching costs 0.02 with no guaranteed better outcome.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,4,C8,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.37).
+- Searching another firm costs 0.02 with uncertain and likely low benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.37@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,4,C9,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.42).
+- Searching another firm costs 0.02 with uncertain benefit, likely resulting in loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,4,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Firm 0 has negative profit, and no further search is possible.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.09@F0) → Search Next; C10 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.08@F1) → Purchase F1",0.06,0.047,"[0.41, 0.58]"
+2,4,C11,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Current firm offers positive profit of 0.22.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,4,C12,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.04), providing no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,4,C13,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.11.
+- Searching another firm costs 0.02 with uncertain improvement, risking lower net revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.11@F1) → Purchase F1",0.11,0.04,"[0.39, 0.61]"
+2,4,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching costs 0.02 with uncertain benefits and may not improve the outcome.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,4,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Searching would add a cost of 0.02 with minimal expected gain.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.26,0.048,"[0.76, 0.49]"
+2,4,C16,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.31).
+- Historical data shows low likelihood of positive profit from additional searches, and search cost (0.02) risks further loss.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.31@F0) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,4,C17,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.07).
+- History shows no positive profits, making further search costly and unlikely to yield gains.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,4,C18,False,"No, privacy value (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.06).
+- Past patterns suggest further searches are unlikely to yield positive profit, risking additional cost.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,4,C19,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** because:  
+- It offers a positive profit of 0.2.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2,0.04,"[0.7, 0.58]"
+2,4,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a high positive profit of 0.32.
+- Searching costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32,0.026,"[0.63, 0.82]"
+2,5,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.11.
+- Additional search costs 0.02 with uncertain benefit, risking loss based on consistent negative outcomes.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,5,C2,False,"No, privacy value (0.043) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.26).
+- Searching another firm costs 0.02 with uncertain benefit, risking further loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.26@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,5,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Firm 0 offers a positive profit of 0.22.
+- Searching further costs 0.02 with uncertain gain, making it irrational given current profit.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.031,"[0.72, 0.8]"
+2,5,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.01), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F0) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,5,C5,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Positive profit of 0.43 ensures rational purchase.
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.43@F1) → Purchase F1",0.43,0.036,"[0.8, 0.92]"
+2,5,C6,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.00@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,5,C7,False,"No, privacy value (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.11).
+- Searching costs 0.02 with no guaranteed better outcome.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,5,C8,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.36).
+- Searching another firm costs 0.02 with uncertain and likely negative expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.36@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,5,C9,False,"No, privacy value (0.04) exceeds maximum expected search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.02).
+- Searching another firm costs 0.02 with uncertain benefit, likely resulting in a net loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F0) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,5,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.09.
+- Firm 0 has negative profit, and no further search is possible.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.09@F0) → Search Next; C10 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.09@F1) → Purchase F1",0.07,0.047,"[0.41, 0.58]"
+2,5,C11,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Current firm offers positive profit of 0.22.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,5,C12,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.02), offering no gain.
+- Searching costs 0.02 with no guaranteed improvement, risking loss.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F1) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,5,C13,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.12.
+- Searching another firm costs 0.02 with uncertain improvement, risking lower net revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.12@F1) → Purchase F1",0.12,0.04,"[0.39, 0.61]"
+2,5,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching costs 0.02 with uncertain benefits and may not improve the outcome.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,5,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Leaving or buying Firm 1 would result in a net loss from the incurred search cost.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.00@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,5,C16,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.31).
+- Historical data shows no positive profits from additional searches, making further cost (0.02) unjustified.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.31@F0) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,5,C17,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- Searched firm has negative profit (-0.07).  
+- History shows no positive profits, making further search costly and unlikely to yield gains.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,5,C18,False,"No, privacy value (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.47).
+- Historical patterns show further searches rarely yield positive profit, risking unnecessary cost.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.47@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,5,C19,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** because:  
+- It offers a positive profit of 0.09.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.09@F1) → Purchase F1",0.09,0.04,"[0.7, 0.58]"
+2,5,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.13.
+- Searching further costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.13@F0) → Purchase F0",0.13,0.026,"[0.63, 0.82]"
+2,6,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with low likelihood of positive profit based on consistent negative outcomes in past rounds.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,6,C2,False,"No, privacy value (0.043) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- The searched firm offers a positive profit of 0.39.
+- Searching another firm costs 0.02 with uncertain benefit, making it irrational to delay purchase.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.39@F1) → Purchase F1",0.39,0.043,"[0.24, 0.89]"
+2,6,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,6,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,6,C5,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.42 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.42@F1) → Purchase F1",0.42,0.036,"[0.8, 0.92]"
+2,6,C6,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Searched firm offers positive profit of 0.22.
+- Additional search cost of 0.02 may not justify uncertain benefits from another firm.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.038,"[0.72, 0.49]"
+2,6,C7,False,"No, privacy value (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.11).
+- Searching costs 0.02 with no guaranteed better outcome.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,6,C8,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.37).
+- Searching another firm costs 0.02 with likely low or negative expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.37@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,6,C9,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.02).
+- Searching another firm costs 0.02 with uncertain benefit, likely resulting in a net loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F0) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,6,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **search another firm** (choose number 2) because: 
+- The searched firm has negative profit (-0.09), making purchase unprofitable.
+- Searching may reveal a firm with positive profit, potentially yielding net gain despite the 0.02 cost.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.09@F0) → Purchase F0",-0.09,0.047,"[0.41, 0.58]"
+2,6,C11,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Current firm offers positive profit of 0.10.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.10@F1) → Purchase F1",0.1,0.036,"[0.72, 0.6]"
+2,6,C12,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.03), offering no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk based on past negative outcomes.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.03@F1) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,6,C13,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.11.
+- Searching another firm costs 0.02 with uncertain improvement, potentially reducing net revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.11@F1) → Purchase F1",0.11,0.04,"[0.39, 0.61]"
+2,6,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching costs 0.02 with uncertain benefits and may not improve the outcome.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,6,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.26.  
+- Leaving would result in a net loss from the incurred search cost of 0.02.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,6,C16,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.31).
+- Historical data shows no positive profits from additional searches, and the search cost (0.02) risks unnecessary loss.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.31@F0) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,6,C17,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.15).
+- History shows no positive profits, so additional search cost (0.02) is not justified.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,6,C18,False,"No, privacy value (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.06).
+- Historical patterns show further searches yield no positive profit, risking unnecessary cost of 0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,6,C19,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.08.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.04,"[0.7, 0.58]"
+2,6,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.13.
+- Searching costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.13@F0) → Purchase F0",0.13,0.026,"[0.63, 0.82]"
+2,7,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with low likelihood of positive profit based on consistent negative outcomes in history.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,7,C2,False,"No, privacy value (0.043) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.26).
+- Searching another firm costs 0.02 with uncertain benefit, risking loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.26@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,7,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,7,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss based on past experiences.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,7,C5,False,No. Privacy value (0.036) exceeds maximum search cost savings (0.02).,0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit of 0.3 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F0) → Purchase F0",0.3,0.036,"[0.8, 0.92]"
+2,7,C6,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,7,C7,False,"No, privacy value (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.42).
+- Searching costs 0.02 with likely negative outcome based on history.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,7,C8,False,"No, privacy cost (0.036) exceeds max search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.37).
+- Searching another firm costs 0.02 with uncertain and likely negative expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.37@F1) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,7,C9,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has large negative profit (-0.42).
+- Searching another firm costs 0.02 with uncertain and likely low benefit.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,7,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Searching another firm costs 0.02 with uncertain improvement.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.047,"[0.41, 0.58]"
+2,7,C11,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Current firm offers positive profit of 0.22.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,7,C12,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.04), offering no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk based on past negative outcomes.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,7,C13,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.11.  
+- Leaving would waste the incurred search cost of 0.02.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.11@F1) → Purchase F1",0.09,0.04,"[0.39, 0.61]"
+2,7,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers the highest profit of 0.38 among searched firms.
+- All firms are searched, and it ensures positive net revenue.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.28@F1) → Search Next; C14 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.38@F0) → Purchase F0",0.36,0.039,"[0.88, 0.78]"
+2,7,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Leaving would result in a net loss from the incurred search cost of 0.02.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,7,C16,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.13).
+- Historical data shows no positive profits from additional searches, and search cost (0.02) risks unnecessary loss.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.13@F1) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,7,C17,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.15).
+- History shows no positive profits, making further search costly and unproductive.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F1) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,7,C18,False,"No, privacy value (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.48).
+- Historical patterns show further searches yield no positive profit, risking unnecessary cost of 0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.48@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,7,C19,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.08.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.04,"[0.7, 0.58]"
+2,7,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a high positive profit of 0.32.
+- Searching costs 0.02 with uncertain benefits, risking reduced net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32,0.026,"[0.63, 0.82]"
+2,8,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with low likelihood of positive profit based on consistent negative outcomes in history.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,8,C2,False,"No, privacy cost (0.043) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- The searched firm offers a positive profit of 0.39.
+- Searching another firm costs 0.02 with uncertain benefit, making it irrational to delay purchase.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.39@F1) → Purchase F1",0.39,0.043,"[0.24, 0.89]"
+2,8,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,8,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss based on past experiences.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,8,C5,False,"No, privacy value (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit of 0.3 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F0) → Purchase F0",0.3,0.036,"[0.8, 0.92]"
+2,8,C6,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,8,C7,False,"No, privacy value (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.42).
+- Searching costs 0.02 with likely negative outcome based on history.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,8,C8,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.15).
+- Searching another firm costs 0.02 with uncertain and likely low expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F0) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,8,C9,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.02).
+- Searching another firm costs 0.02 with uncertain and likely low benefit, risking a net loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.02@F0) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,8,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Searching another firm costs 0.02 with uncertain improvement.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.047,"[0.41, 0.58]"
+2,8,C11,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Current firm offers positive profit of 0.22.  
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,8,C12,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.04), offering no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk based on past negative outcomes.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,8,C13,False,"No, privacy cost (0.04) exceeds maximum potential search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.11.
+- Searching another firm costs 0.02 with uncertain improvement, risking lower net revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.11@F1) → Purchase F1",0.11,0.04,"[0.39, 0.61]"
+2,8,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers the highest profit of 0.38 among searched firms.
+- All firms are searched, ensuring positive net revenue.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.28@F1) → Search Next; C14 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.38@F0) → Purchase F0",0.36,0.039,"[0.88, 0.78]"
+2,8,C15,False,"No, privacy cost (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Searching would add a cost of 0.02 with minimal expected gain.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.26,0.048,"[0.76, 0.49]"
+2,8,C16,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.13).
+- Historical data shows no positive profits from additional searches, making the 0.02 search cost unjustified.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.13@F1) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,8,C17,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.07).
+- History shows no positive profits, making further search costly and unlikely to improve outcome.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,8,C18,False,"No, privacy cost (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.48).
+- Historical patterns show further searches yield no positive profit, risking unnecessary cost.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.48@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,8,C19,False,"No, privacy value (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers a positive profit of 0.08.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.08@F1) → Purchase F1",0.08,0.04,"[0.7, 0.58]"
+2,8,C20,False,"No, privacy value (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers the highest profit of 0.32.  
+- Ensures positive net revenue of 0.30 after search cost, better than leaving with a loss.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.13@F0) → Search Next; C20 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.32@F1) → Purchase F1",0.3,0.026,"[0.63, 0.82]"
+2,9,C1,False,"No, privacy cost (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.12.
+- Additional search costs 0.02 with low likelihood of positive profit based on consistent negative outcomes in history.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.12@F1) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,9,C2,False,"No, privacy cost (0.043) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- The searched firm offers a positive profit of 0.39.
+- Searching another firm costs 0.02 with uncertain benefit, making it irrational to delay purchase.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.39@F1) → Purchase F1",0.39,0.043,"[0.24, 0.89]"
+2,9,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,9,C4,False,"No, privacy value (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.01), providing no value.
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss based on past experiences.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F0) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,9,C5,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.42 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.42@F1) → Purchase F1",0.42,0.036,"[0.8, 0.92]"
+2,9,C6,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,9,C7,False,"No, privacy cost (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.42).
+- Searching costs 0.02 with likely negative outcome based on history.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,9,C8,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.15).
+- Searching another firm costs 0.02 with uncertain and likely low expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F0) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,9,C9,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.42).
+- Searching another firm costs 0.02 with uncertain and likely low benefit, risking a net loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,9,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.08.
+- Leaving would incur a loss from the 0.02 search cost.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.09@F0) → Search Next; C10 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.08@F1) → Purchase F1",0.06,0.047,"[0.41, 0.58]"
+2,9,C11,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Current firm offers positive profit of 0.22.
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,9,C12,False,"No, privacy value (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.04), offering no gain.
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk based on past negative outcomes.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,9,C13,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a positive profit of 0.11.
+- Leaving would waste the incurred search cost of 0.02.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Search Next; C13 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.11@F1) → Purchase F1",0.09,0.04,"[0.39, 0.61]"
+2,9,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.38.
+- Searching costs 0.02 with uncertain benefits and may not improve the outcome.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.38,0.039,"[0.88, 0.78]"
+2,9,C15,False,"No, privacy value (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Leaving would result in a net loss from the incurred search cost of 0.02.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Search Next; C15 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.26@F0) → Purchase F0",0.24,0.048,"[0.76, 0.49]"
+2,9,C16,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.31).
+- Historical data shows no positive profits from additional searches, making the 0.02 search cost unjustified.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.31@F0) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,9,C17,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.07).
+- History shows no positive profits, so further search is costly and unlikely to yield gains.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,9,C18,False,"No, privacy cost (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm offers negative profit (-0.48).  
+- Historical patterns show further searches yield no positive profit, risking additional cost of 0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.48@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,9,C19,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.2.  
+- Searching another firm costs 0.02 and is unlikely to yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2,0.04,"[0.7, 0.58]"
+2,9,C20,False,"No, privacy cost (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- It offers the highest profit of 0.32.  
+- Purchasing ensures a positive net revenue of 0.30, better than leaving with a loss of -0.02.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.13@F0) → Search Next; C20 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.32@F1) → Purchase F1",0.3,0.026,"[0.63, 0.82]"
+2,10,C1,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit of -0.43.
+- Additional search costs 0.02 with low likelihood of positive profit based on consistent negative outcomes in history.","C1 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F0) → Leave Market",0.0,0.031,"[0.07, 0.38]"
+2,10,C2,False,"No, privacy cost (0.043) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.26).
+- Searching another firm costs 0.02 with uncertain benefit, risking loss.","C2 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.26@F0) → Leave Market",0.0,0.043,"[0.24, 0.89]"
+2,10,C3,False,"No, privacy value (0.031) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- Firm 1 offers a positive profit of 0.3.
+- Searching further costs 0.02 with uncertain gain, making it irrational given current profit.","C3 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.30@F1) → Purchase F1",0.3,0.031,"[0.72, 0.8]"
+2,10,C4,False,"No, privacy cost (0.051) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.43).
+- Searching another firm costs 0.02 with uncertain benefits, risking a net loss based on past experiences.","C4 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.43@F1) → Leave Market",0.0,0.051,"[0.49, 0.07]"
+2,10,C5,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",1,"### Decision:  
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.42 ensures rational purchase.  
+- Search cost of 0.02 outweighs uncertain gain from additional search.","C5 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.42@F1) → Purchase F1",0.42,0.036,"[0.8, 0.92]"
+2,10,C6,False,"No, privacy cost (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- No positive profit from searched firm.
+- Additional search cost of 0.02 may not justify uncertain benefits.","C6 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.01@F1) → Leave Market",0.0,0.038,"[0.72, 0.49]"
+2,10,C7,False,"No, privacy cost (0.032) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.42).
+- Searching costs 0.02 with likely negative outcome based on history.","C7 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.032,"[0.39, 0.08]"
+2,10,C8,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.15).
+- Searching another firm costs 0.02 with uncertain and likely low expected benefit.","C8 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.15@F0) → Leave Market",0.0,0.036,"[0.35, 0.13]"
+2,10,C9,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.42).
+- Searching another firm costs 0.02 with uncertain and likely low benefit, risking a net loss.","C9 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.42@F1) → Leave Market",0.0,0.04,"[0.48, 0.08]"
+2,10,C10,False,"No, privacy value (0.047) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **search another firm** (choose number 2) because: 
+- The searched firm has negative profit (-0.09), making purchase unprofitable.
+- Searching may reveal a firm with positive profit, potentially yielding net gain despite the 0.02 cost.","C10 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.09@F0) → Purchase F0",-0.09,0.047,"[0.41, 0.58]"
+2,10,C11,False,"No, privacy cost (0.036) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- Current firm offers positive profit of 0.22.  
+- Search cost of 0.02 unlikely to yield better deal.","C11 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.22@F0) → Purchase F0",0.22,0.036,"[0.72, 0.6]"
+2,10,C12,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The searched firm has negative profit (-0.04), offering no gain.  
+- Searching costs 0.02 with uncertain improvement, likely not worth the risk based on past negative outcomes.","C12 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.04@F0) → Leave Market",0.0,0.055,"[0.46, 0.47]"
+2,10,C13,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **search another firm** (choose number 2) because: 
+- The current firm has negative profit (-0.11), making purchase unprofitable.
+- Searching costs 0.02 and may uncover a positive-profit option, improving revenue.","C13 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.11@F0) → Purchase F0",-0.11,0.04,"[0.39, 0.61]"
+2,10,C14,False,"No, privacy cost (0.039) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers the highest profit of 0.38 among searched firms.
+- All firms are searched, ensuring positive net revenue.","C14 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.28@F1) → Search Next; C14 Search #2 (Searched:2/2, SearchCost:0.02, BestProfit:0.38@F0) → Purchase F0",0.36,0.039,"[0.88, 0.78]"
+2,10,C15,False,"No, privacy cost (0.048) exceeds maximum search cost savings (0.02).",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- It offers a positive profit of 0.26.
+- Searching would add a cost of 0.02 with minimal expected gain.","C15 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.26,0.048,"[0.76, 0.49]"
+2,10,C16,False,"No, privacy value (0.038) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm has negative profit (-0.31).
+- Historical data shows no positive profits from additional searches, making the 0.02 search cost unjustified.","C16 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.31@F0) → Leave Market",0.0,0.038,"[0.19, 0.37]"
+2,10,C17,False,"No, privacy cost (0.055) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Searched firm has negative profit (-0.07).
+- History shows no positive profits, so further search cost (0.02) is unjustified.","C17 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.07@F0) → Leave Market",0.0,0.055,"[0.43, 0.35]"
+2,10,C18,False,"No, privacy cost (0.027) exceeds maximum search cost savings (0.02).",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The searched firm offers negative profit (-0.48).
+- Historical patterns show further searches yield no positive profit, risking additional cost of 0.02.","C18 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:-0.48@F1) → Leave Market",0.0,0.027,"[0.44, 0.02]"
+2,10,C19,False,"No, privacy cost (0.04) exceeds maximum search cost savings (0.02).",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- It offers a positive profit of 0.2.  
+- Searching another firm costs 0.02 and may not yield a better deal.","C19 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.20@F0) → Purchase F0",0.2,0.04,"[0.7, 0.58]"
+2,10,C20,False,"No, privacy cost (0.026) exceeds maximum search cost savings (0.02).",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because: 
+- It offers a high positive profit of 0.32.
+- Searching costs 0.02 with uncertain and likely low benefits, reducing net revenue.","C20 Search #1 (Searched:1/2, SearchCost:0.00, BestProfit:0.32@F1) → Purchase F1",0.32,0.026,"[0.63, 0.82]"

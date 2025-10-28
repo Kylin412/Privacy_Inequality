@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+7,1,F3,0.5,"Change price: 0.00, reason: maximizes profit with uniform valuations and recommendations.",3.0,6,3.0,1.0,"[0.28320083814347063, 'adaptive']"
+7,2,F3,0.5,"Change price: 0.00, reason: maximizes profit with high share rate and uniform valuations.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,3,F3,0.5,"Change price: 0.00, reason: maximizes profit with high share rate and uniform valuations.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,4,F3,0.5,"Change price: 0.00, reason: maximizes profit with consistent high share rate and uniform valuations based on historical data.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,5,F3,0.5,"Change price: 0.00, reason: maximizes profit with high share rate and uniform valuations based on consistent historical data.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,6,F3,0.5,"Change price: 0.00, reason: maintains maximum profit at optimal price with high share rate and uniform valuations based on historical consistency.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,7,F3,0.5,"Change price: 0.00, reason: maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,0.95,"[1.0, 'adaptive']"
+7,8,F3,0.5,"Change price: 0.00, reason: maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,1.0,"[0.95, 'adaptive']"
+7,9,F3,0.5,"Change price: 0.00, reason: maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"
+7,10,F3,0.5,"Change price: 0.00, reason: maintains maximum profit with high share rate and consistent historical sales.",3.0,6,3.0,1.0,"[1.0, 'adaptive']"

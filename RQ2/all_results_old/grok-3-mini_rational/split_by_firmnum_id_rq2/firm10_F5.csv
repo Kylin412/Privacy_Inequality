@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with high share rate and 10 firms, as demand is segmented by recommendations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,2,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing and uniform valuations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,3,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, uniform valuations, and symmetric competition.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,4,F5,0.5,"Change price: 0.00, reason: Optimal for maximizing profit with full data sharing, uniform valuations, and symmetric competition among 10 firms.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,5,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing and uniform valuations.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,6,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, uniform valuations, and consistent historical performance.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,7,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, symmetric competition, and historical consistency at price 0.50.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,8,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, symmetric competition, and consistent sales at price 0.50.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,9,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, consistent historical sales of 2 units at price 0.50, and predicted share rate of 1.0 in a competitive 10-firm market.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+10,10,F5,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing, consistent historical sales of 2 units at price 0.50, and symmetric competition among 10 firms.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"

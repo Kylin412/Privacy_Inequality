@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+5,1,F4,0.7,"Change price: 0.20, reason: optimal for 5-firm competition.",2.8,4,2.8,0.95,"[0.030100672505275594, 'adaptive']"
+5,2,F4,0.7,"Change price: 0.00, reason: maintain price for consistent profit with stable share rate and competition.",2.8,4,2.8,1.0,"[0.95, 'adaptive']"
+5,3,F4,0.7,"Change price: 0.00, reason: maintain price to sustain high sales and profit with stable high share rate and competition.",2.8,4,2.8,1.0,"[1.0, 'adaptive']"
+5,4,F4,0.8,"Change price: 0.10, reason: increase price to maximize profit with high share rate reducing price sensitivity.",2.4,3,2.4,1.0,"[1.0, 'adaptive']"
+5,5,F4,0.7,"Change price: -0.10, reason: reduce price to increase sales and profit based on historical data showing higher earnings at lower price.",2.8,4,2.8,1.0,"[1.0, 'adaptive']"
+5,6,F4,0.7,"Change price: 0.00, reason: maintain price to sustain high profit based on historical data showing optimal earnings at 0.70.",2.8,4,2.8,1.0,"[1.0, 'adaptive']"
+5,7,F4,0.6,"Change price: -0.10, reason: decrease price to increase sales and profit based on historical data showing price sensitivity.",3.0,5,3.0,1.0,"[1.0, 'adaptive']"
+5,8,F4,0.6,"Change price: 0.00, reason: maintain price to sustain high profit with stable share rate and historical data.",3.0,5,3.0,1.0,"[1.0, 'adaptive']"
+5,9,F4,0.6,"Change price: 0.00, reason: maintain price to sustain high profit with stable share rate and successful historical performance at 0.60.",3.0,5,3.0,1.0,"[1.0, 'adaptive']"
+5,10,F4,0.6,"Change price: 0.00, reason: maintain price to sustain high profit with stable share rate and historical success at 0.60.",3.0,5,3.0,1.0,"[1.0, 'adaptive']"

@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+1,1,C2,False,"No, because with only one firm, the benefits of personalized recommendations in reducing search costs are minimal, and the privacy cost of 0.055 outweighs any potential savings.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.16.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.16@F0) → Purchase F0",0.16
+1,2,C2,False,"No, because with only one firm, personalized recommendations offer negligible search cost savings, and the privacy cost of 0.055 outweighs any minor benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,3,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,4,C2,False,"No, because with only one firm, personalized recommendations offer no significant search cost savings, and the privacy cost of 0.055 outweighs any minor benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,5,C2,False,"No, because with only one firm, personalized recommendations offer negligible benefits in reducing search costs, and the privacy cost of 0.055 outweighs any potential savings.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,6,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,7,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,8,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,9,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19
+1,10,C2,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, and the privacy cost of 0.055 outweighs any negligible benefits.",0,"### Decision:  
+I'll **purchase Firm 0** (choose number 0) because:  
+- The firm offers a positive profit of 0.19.  
+- As a rational consumer, I won't leave without buying when profit is positive.","C2 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:0.19@F0) → Purchase F0",0.19

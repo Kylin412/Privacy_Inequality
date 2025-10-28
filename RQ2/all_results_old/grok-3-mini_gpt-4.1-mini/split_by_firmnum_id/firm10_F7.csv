@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F7,0.78,"Change price: 0.28, reason: Higher share rate reduces competition, allowing higher price for profit maximization.",1.56,2,1.56,1.0,"[0.15817393706443206, 'adaptive']"
+10,2,F7,0.5,"Change price: -0.28, reason: Lower price increases sales and expected profit under high share rate with random recommendations.",1.0,2,1.0,1.0,"[1.0, 'adaptive']"
+10,3,F7,0.78,"Change price: 0.28, reason: Higher price in Round 1 yielded higher profit with same sales, indicating potential for increased revenue under high share rate.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+10,4,F7,0.78,"Change price: 0.00, reason: Historical data shows higher profit at 0.78 with consistent sales under high share rate.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+10,5,F7,0.78,"Change price: 0.00, reason: Historical data shows consistent sales and higher profit at 0.78 under high share rate.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+10,6,F7,0.78,"Change price: 0.00, reason: Historical data shows consistent sales and higher profit at 0.78 under high share rate.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+10,7,F7,0.5,"Change price: -0.28, reason: Lower price to 0.50 to maximize profit by increasing sales volume, based on optimal pricing strategy and competitor performance.",1.0,2,1.0,1.0,"[1.0, 'adaptive']"
+10,8,F7,0.78,"Change price: 0.28, reason: Return to higher price for maximized profit based on consistent sales history.",1.56,2,1.56,1.0,"[1.0, 'adaptive']"
+10,9,F7,0.65,"Change price: -0.13, reason: Lower price to increase sales volume based on competitor data showing higher sales at 0.65.",1.3,2,1.3,1.0,"[1.0, 'adaptive']"
+10,10,F7,0.7,"Change price: 0.05, reason: Increase to align with top competitors' pricing for higher potential profit.",1.4,2,1.4,1.0,"[1.0, 'adaptive']"

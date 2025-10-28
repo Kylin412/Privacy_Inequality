@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F8,0.5,"Change price: 0.00, reason: High share rate and competition suggest optimal price of 0.50 to maximize profit with uniform valuations.",1.5,3,1.5,1.0,"[0.9950804080696836, 'adaptive']"
+10,2,F8,0.5,"Change price: 0.00, reason: High share rate and historical data indicate price of 0.50 maximizes profit with uniform valuations.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,3,F8,0.5,"Change price: 0.00, reason: High share rate and historical profit at 0.50 indicate optimal price to maximize revenue with uniform valuations and reduced search.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,4,F8,0.5,"Change price: 0.00, reason: Consistent sales and profit at 0.50 with high share rate and uniform valuations optimize revenue.",1.5,3,1.5,1.0,"[1.0, 'adaptive']"
+10,5,F8,0.6,"Change price: 0.10, reason: Increase price slightly to test for higher profit with high share rate and observed competitor pricing.",1.8,3,1.8,1.0,"[1.0, 'adaptive']"
+10,6,F8,0.65,"Change price: 0.05, reason: Slight increase to test higher profit with stable sales and high share rate.",1.95,3,1.95,1.0,"[1.0, 'adaptive']"
+10,7,F8,0.7,"Change price: 0.05, reason: Slight increase to test for higher profit with consistent sales and high share rate.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+10,8,F8,0.75,"Change price: 0.05, reason: Slight increase to test higher profit with consistent sales and high share rate.",2.25,3,2.25,1.0,"[1.0, 'adaptive']"
+10,9,F8,0.7,"Change price: -0.05, reason: Decrease to increase sales and profit based on competitor with lower price achieving higher revenue.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+10,10,F8,0.75,"Change price: 0.05, reason: Slight increase to test higher profit with consistent sales and high share rate.",2.25,3,2.25,1.0,"[1.0, 'adaptive']"

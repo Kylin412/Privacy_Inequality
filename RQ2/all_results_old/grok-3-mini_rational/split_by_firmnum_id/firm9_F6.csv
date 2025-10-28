@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+9,1,F6,0.5,"Change price: 0.00, reason: High share rate and recommendations reduce competition, optimizing profit at basic price.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,2,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full data sharing and equal recommendation chances.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,3,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with predicted share rate 1.0 and historical sales pattern.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,4,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with predicted share rate 1.0 and historical sales pattern.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,5,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full share rate and equal recommendation chances.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,6,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with predicted share rate 1.0 and historical sales stability.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,7,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with predicted share rate 1.0 and consistent historical sales of 2 units at price 0.5.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,8,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with predicted share rate 1.0 and consistent historical sales.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,9,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full share rate, stable competition, and consistent historical profit at price 0.50.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"
+9,10,F6,0.5,"Change price: 0.00, reason: Optimal for profit maximization with full share rate and consistent historical sales.",1.0,2,1.0,1.0,"[1.0, 'equilibrium']"

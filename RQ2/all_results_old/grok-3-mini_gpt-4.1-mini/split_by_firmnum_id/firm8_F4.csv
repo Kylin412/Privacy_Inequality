@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+8,1,F4,0.52,"Change price: 0.02, reason: High share rate reduces search, enabling higher price.",1.56,3,1.56,0.95,"[0.9709093557126911, 'adaptive']"
+8,2,F4,0.62,"Change price: 0.10, reason: High share rate reduces consumer search, allowing price increase to maximize profit based on competitor success.",1.86,3,1.86,1.0,"[0.95, 'adaptive']"
+8,3,F4,0.7,"Change price: 0.08, reason: High share rate reduces search, enabling price increase to maximize profit.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+8,4,F4,0.8,"Change price: 0.10, reason: High share rate reduces search, enabling price increase to maximize profit based on competitor success with higher prices and sales.",1.6,2,1.6,1.0,"[1.0, 'adaptive']"
+8,5,F4,0.7,"Change price: -0.10, reason: Historical profit decline at 0.80; lowering to increase sales and maximize profit based on past performance.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+8,6,F4,0.8,"Change price: 0.10, reason: High share rate and competitor success at 0.80 motivate price increase to maximize profit.",1.6,2,1.6,1.0,"[1.0, 'adaptive']"
+8,7,F4,0.7,"Change price: -0.10, reason: Historical data shows higher profit and sales at 0.70, reducing risk from price sensitivity.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+8,8,F4,0.6,"Change price: -0.10, reason: Historical data shows lower prices increase sales and profit due to price sensitivity.",1.8,3,1.8,1.0,"[1.0, 'adaptive']"
+8,9,F4,0.7,"Change price: 0.10, reason: Historical data shows price 0.70 maximizes profit with consistent sales of 3 units.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"
+8,10,F4,0.7,"Change price: 0.00, reason: Historical data shows price 0.70 maximizes profit with consistent sales and higher revenue than other prices.",2.1,3,2.1,1.0,"[1.0, 'adaptive']"

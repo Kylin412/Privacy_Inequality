@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+10,1,F4,0.5,"Change price: 0.00, reason: Optimal for recommended consumers' demand.",0.0,0,0.0,1.0,"[0.5914042364282096, 'adaptive']"
+10,2,F4,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with high share rate and uniform valuations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,3,F4,0.5,"Change price: 0.00, reason: High share rate and uniform valuations indicate price of 0.50 maximizes expected profit.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,4,F4,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with uniform valuations and high share rate.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,5,F4,0.5,"Change price: 0.00, reason: High share rate and uniform valuations maximize expected profit at price 0.50.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,6,F4,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with high share rate and uniform valuations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,7,F4,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with high share rate and uniform valuations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,8,F4,0.5,"Change price: 0.00, reason: Optimal for maximizing expected profit with high share rate and uniform valuations.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,9,F4,0.65,"Change price: 0.15, reason: Increase to test higher profit based on competitor success at elevated prices with high share rate.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"
+10,10,F4,0.7,"Change price: 0.05, reason: Align with competitor prices at 0.70 to increase sales likelihood and capture profit opportunities.",0.0,0,0.0,1.0,"[1.0, 'adaptive']"

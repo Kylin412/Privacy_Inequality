@@ -1,0 +1,11 @@
+﻿firm_num,round,firm_id,price,price_reason,profit,sale_num,revenue,share_rate,share_rate_predicted
+4,1,F0,0.52,"Change price: 0.02, reason: high share rate increases buyer loyalty, allowing slight price increase.",2.6,5,2.6,0.95,"[0.5694858285832585, 'adaptive']"
+4,2,F0,0.6,"Change price: 0.08, reason: High share rate decreases price sensitivity, enabling price increase to boost revenue.",2.4,4,2.4,1.0,"[0.95, 'adaptive']"
+4,3,F0,0.54,"Change price: -0.06, reason: decrease price to boost sales and profit based on competitors' higher sales at lower prices.",2.7,5,2.7,1.0,"[1.0, 'adaptive']"
+4,4,F0,0.56,"Change price: 0.02, reason: High share rate reduces price sensitivity, allowing slight increase to boost profit based on competitor success.",2.24,4,2.24,1.0,"[1.0, 'adaptive']"
+4,5,F0,0.58,"Change price: 0.02, reason: High share rate and competitor higher profits at elevated prices justify slight increase to boost revenue.",2.32,4,2.32,1.0,"[1.0, 'adaptive']"
+4,6,F0,0.6,"Change price: 0.02, reason: High share rate and competitor higher profits at elevated prices justify slight increase to boost revenue.",2.4,4,2.4,0.95,"[1.0, 'adaptive']"
+4,7,F0,0.62,"Change price: 0.02, reason: High share rate and competitor higher profits at elevated prices justify slight increase to boost revenue.",2.48,4,2.48,0.9,"[0.95, 'adaptive']"
+4,8,F0,0.64,"Change price: 0.02, reason: High share rate and competitors' higher profits at elevated prices justify slight increase to boost revenue.",2.56,4,2.56,0.9,"[0.9, 'adaptive']"
+4,9,F0,0.66,"Change price: 0.02, reason: High share rate and competitors' higher profits at elevated prices justify slight increase to boost revenue.",1.98,3,1.98,0.95,"[0.9, 'adaptive']"
+4,10,F0,0.64,"Change price: -0.02, reason: Price increase reduced sales and profit, so decreasing to regain demand and boost revenue.",2.56,4,2.56,1.0,"[0.95, 'adaptive']"

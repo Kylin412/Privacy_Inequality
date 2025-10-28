@@ -1,0 +1,41 @@
+﻿firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+1,1,C11,False,"No, because the privacy value (0.029) likely exceeds the minimal search cost savings with only one firm.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.09).  
+- Purchasing would result in a net loss.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.09@F0) → Leave Market",0.0
+1,2,C11,False,"No, because with only one firm, the potential search cost reduction is minimal and unlikely to exceed the privacy value of 0.029.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,3,C11,False,"No, because with only one firm, the potential search cost reduction is negligible and doesn't justify the privacy value of 0.029.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,4,C11,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't justify the privacy value of 0.029.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06).  
+- Purchasing would result in a net loss.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,5,C11,False,"No, because with only one firm, the potential search cost reduction is negligible and doesn't justify the privacy value of 0.029.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06).  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,6,C11,False,"No, because with only one firm, the potential reduction in search cost is negligible and doesn't justify the privacy value of 0.029.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,7,C11,False,"No, because with only one firm, personalized recommendations offer no meaningful search cost reduction, while the privacy value of 0.029 is forfeited.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,8,C11,False,"No, because with only one firm, personalized recommendations offer no meaningful reduction in search costs, making the privacy value of 0.029 not worth forfeiting.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06).  
+- Purchasing would result in a net loss.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,9,C11,False,"No, because with only one firm, personalized recommendations offer no meaningful search cost reduction, making the privacy value of 0.029 not worth forfeiting.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0
+1,10,C11,False,"No. With only one firm, personalized recommendations offer no meaningful search cost reduction, making the privacy value of 0.029 not worth forfeiting.",-1,"### Decision:  
+I'll **leave** (choose number -1) because:  
+- The only firm's profit is negative (-0.06), resulting in a net loss.  
+- No other firms are available to search.","C11 Search #1 (Searched:1/1, SearchCost:0.00, BestProfit:-0.06@F0) → Leave Market",0.0

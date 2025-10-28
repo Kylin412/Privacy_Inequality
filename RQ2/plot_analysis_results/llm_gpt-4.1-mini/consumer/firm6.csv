@@ -1,0 +1,820 @@
+firm_num,round,consumer_id,share,share_reason,final_choice,final_reason,decision_sequence,total_revenue
+6,1,C1,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The profit from Firm 0 is positive (0.38).
+- Searching more firms costs 0.02 per search, which may reduce net profit below zero.
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,1,C2,True,"yes, because sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.38) already found  
+- Further search costs (0.02) may reduce net revenue  
+- First search is free, and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F2) → Purchase F2",0.33
+6,1,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Both searched firms yield negative profit.  
+- Additional search cost may exceed potential gains given low net profit margin.","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.09@F5) → Search Next; C3 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:-0.09@F5) → Leave Market",-0.06
+6,1,C4,True,"Yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The potential profit (0.37) is positive and significant compared to search cost (0.02).
+- Further searching costs 0.02 per search and may not yield better profit exceeding privacy cost (0.045) and search cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,1,C5,True,"Yes, because sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because: 
+- Positive profit of 0.23 is available
+- No search cost incurred yet, so buying now maximizes revenue","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.23@F2) → Purchase F2",0.19
+6,1,C6,True,"yes, because with 6 firms, personalized recommendations will significantly reduce search cost, outweighing the small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** because: 
+- Positive profit (0.32) already found
+- Additional search costs (0.02) reduce net gain and risk no better deal","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.32@F3) → Purchase F3",0.29
+6,1,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** because:  
+- Positive profit of 0.27 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.27@F5) → Purchase F5",0.23
+6,1,C8,True,"yes, because personalized recommendations will reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), so buying now yields positive net revenue.  
+- Further searching costs 0.02, which might reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,1,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search costs (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,1,C10,True,"yes, because personalized recommendations will reduce search cost significantly with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- Positive profit of 0.4 is good enough given search cost and privacy value.
+- Further search costs 0.02, which may reduce net revenue below zero.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.40@F3) → Purchase F3",0.36
+6,1,C11,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** because: 
+- The potential profit (0.27) is positive and exceeds the search cost of further searches.
+- Additional search costs (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.27@F2) → Purchase F2",0.23
+6,1,C12,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.26 is already found  
+- Further search costs 0.02 and may not yield better profit given diminishing returns","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F1) → Purchase F1",0.22
+6,1,C13,True,"Yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because: 
+- Positive profit (0.11) is already found
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.11@F5) → Purchase F5",0.08
+6,1,C14,True,"yes, because the reduction in search cost from personalized recommendations outweighs the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** because: 
+- Positive profit (0.39) from the first search
+- No additional search cost incurred yet","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.39@F4) → Purchase F4",0.35
+6,1,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because: 
+- Positive profit of 0.3 is good
+- Additional search costs (0.02) may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.30@F5) → Purchase F5",0.26
+6,1,C16,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No firm searched so far offers positive profit.  
+- Additional search costs (0.02) may outweigh potential gains given low valuations.","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.00@F2) → Search Next; C16 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:0.00@F2) → Leave Market",-0.06
+6,1,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- Positive profit (0.34) is already available
+- Additional search costs (0.02) may reduce net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,1,C18,True,"yes, because personalized recommendations will reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because: 
+- The potential profit (0.34) is positive and reasonably high.
+- Searching more firms will cost 0.02 each, reducing net profit and may not yield much better offers.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F5) → Purchase F5",0.29
+6,1,C19,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** because: 
+- Positive profit (0.29) is available from the searched firm
+- Further search costs (0.02) may reduce net revenue and are not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.29@F5) → Purchase F5",0.25
+6,1,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- The potential profit (0.31) is positive and reasonably high.
+- Further search costs (0.02) might reduce net revenue and risk not finding better deals.","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.31@F3) → Purchase F3",0.27
+6,2,C1,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The profit (0.33) is positive after price and valuation.
+- Searching more firms costs 0.02 per search, which may reduce net profit below zero.
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.33@F0) → Purchase F0",0.29
+6,2,C2,True,"yes, because sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.33) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.33@F2) → Purchase F2",0.28
+6,2,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Current firm offers negative profit (-0.19)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.19@F5) → Leave Market",-0.04
+6,2,C4,True,"yes, sharing reduces search cost significantly with 6 firms, outweighing small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.32) is positive and outweighs the search cost (0.02).  
+- Further searching risks additional costs that may not increase profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.32@F0) → Purchase F0",0.28
+6,2,C5,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because: 
+- Positive profit of 0.18 is available
+- Searching more costs 0.02, which may reduce total revenue given the modest profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.18@F2) → Purchase F2",0.14
+6,2,C6,True,"yes, personalized recommendations will reduce search cost significantly, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.22) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.22@F3) → Purchase F3",0.19
+6,2,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.17 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.13
+6,2,C8,True,"yes, because personalized recommendations will reduce search costs significantly.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.01).  
+- Further search costs 0.02, which will increase loss.  
+- No positive profit opportunity found so far.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.01@F0) → Leave Market",-0.05
+6,2,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.21) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.21@F0) → Purchase F0",0.16
+6,2,C10,True,"yes, personalized recommendations will reduce search cost significantly with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.3 is good enough given search cost and privacy value.  
+- Further search costs 0.02, which may reduce net revenue below zero.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.30@F3) → Purchase F3",0.26
+6,2,C11,True,"yes, personalized recommendations will reduce search costs significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.22) is positive and exceeds the search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.22@F2) → Purchase F2",0.18
+6,2,C12,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.21 is found  
+- Further search costs 0.02 may not yield better profit given current valuation-price gap","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.21@F1) → Purchase F1",0.17
+6,2,C13,True,"yes, sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.01) found  
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F5) → Purchase F5",-0.02
+6,2,C14,True,"yes, because the reduction in search cost from personalized recommendations outweighs the small privacy cost",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.29) already found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.29@F4) → Purchase F4",0.25
+6,2,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because: 
+- Positive profit of 0.2 is good 
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F5) → Purchase F5",0.16
+6,2,C16,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Additional search cost may outweigh potential gains","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.05@F2) → Search Next; C16 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:-0.05@F2) → Leave Market",-0.06
+6,2,C17,True,"yes, sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.29) is already available  
+- Additional search cost (0.02) may reduce net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.29@F0) → Purchase F0",0.25
+6,2,C18,True,"yes, personalized recommendations will reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.24) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F5) → Purchase F5",0.19
+6,2,C19,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.19) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.15
+6,2,C20,True,"yes, sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- The potential profit (0.21) is positive
+- Further search cost (0.02) may reduce net revenue and risk no better deal","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.21@F3) → Purchase F3",0.17
+6,3,C1,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The profit (0.38) is positive.
+- Additional search costs (0.02) may reduce net profit below zero.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,3,C2,True,"yes, because sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.28) found  
+- Further search cost (0.02) may reduce net revenue","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.28@F2) → Purchase F2",0.23
+6,3,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.24)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.24@F5) → Leave Market",-0.04
+6,3,C4,True,"yes, because sharing data reduces search costs significantly, outweighing the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs the search cost.  
+- Further search costs 0.02 and may not yield better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,3,C5,True,"yes, sharing reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.13 is available  
+- Searching more costs 0.02, which may reduce total revenue given the modest profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.13@F2) → Purchase F2",0.09
+6,3,C6,True,"yes, personalized recommendations will reduce search cost significantly, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.12) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F3) → Purchase F3",0.09
+6,3,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.12 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F5) → Purchase F5",0.08
+6,3,C8,True,"yes, personalized recommendations will reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The profit is positive (0.04), so buying now yields positive net revenue. 
+- Further searching costs 0.02, which might reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,3,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,3,C10,True,"yes, personalized recommendations reduce search cost significantly with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.2 is good enough given search cost and privacy value.  
+- Further search cost of 0.02 may reduce net revenue below zero.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F3) → Purchase F3",0.16
+6,3,C11,True,"yes, personalized recommendations will reduce search costs significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.17) is positive and exceeds the search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F2) → Purchase F2",0.13
+6,3,C12,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.16 is found  
+- Further search costs 0.02 may not yield better profit given small margin","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.16@F1) → Purchase F1",0.12
+6,3,C13,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm has negative profit (-0.04)  
+- Additional search cost may not be justified given low valuation and privacy cost already paid","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F5) → Leave Market",-0.03
+6,3,C14,True,"yes, because personalized recommendations reduce search cost significantly, outweighing the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because: 
+- Positive profit (0.24) found
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F4) → Purchase F4",0.2
+6,3,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because: 
+- Positive profit of 0.15 is good 
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.15@F5) → Purchase F5",0.11
+6,3,C16,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Additional search cost may outweigh potential gains","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.10@F2) → Search Next; C16 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:-0.10@F2) → Leave Market",-0.06
+6,3,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is already available  
+- Additional search cost (0.02) may reduce net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,3,C18,True,"yes, personalized recommendations reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.19) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.14
+6,3,C19,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.14) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.14@F5) → Purchase F5",0.1
+6,3,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- The potential profit (0.11) is positive
+- Further search cost (0.02) may reduce net revenue and risk no better deal","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.11@F3) → Purchase F3",0.07
+6,4,C1,True,"yes, personalized recommendations reduce search costs significantly with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.33) is positive.  
+- Searching costs 0.02 may reduce net profit below zero.  
+- First search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.33@F0) → Purchase F0",0.29
+6,4,C2,True,"yes, because sharing data significantly reduces search cost with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.23) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.23@F2) → Purchase F2",0.18
+6,4,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.19)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.19@F5) → Leave Market",-0.04
+6,4,C4,True,"yes, sharing reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.32) is positive and outweighs the search cost.  
+- Further search costs 0.02 and may not yield better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.32@F0) → Purchase F0",0.28
+6,4,C5,True,"yes, because sharing data significantly reduces search cost with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.08 is available  
+- Searching more costs 0.02, which may reduce total revenue given the modest profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.08@F2) → Purchase F2",0.04
+6,4,C6,True,"yes, personalized recommendations significantly reduce search cost, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.02) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.02@F3) → Purchase F3",-0.01
+6,4,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.17 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.13
+6,4,C8,True,"yes, personalized recommendations will reduce search costs significantly.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.01).  
+- Further search costs 0.02, increasing expected loss.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.01@F0) → Leave Market",-0.05
+6,4,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.21) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.21@F0) → Purchase F0",0.16
+6,4,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.1 is better than zero net revenue from searching more.  
+- Further search cost of 0.02 may reduce net revenue below zero given low profit margin.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.06
+6,4,C11,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.12) is positive and exceeds the cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F2) → Purchase F2",0.08
+6,4,C12,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.11 is found  
+- Further search costs 0.02 may not yield better profit given small margin and privacy cost","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.11@F1) → Purchase F1",0.07
+6,4,C13,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.01) is found  
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F5) → Purchase F5",-0.02
+6,4,C14,True,"yes, because personalized recommendations reduce search costs more than the small privacy cost",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.19) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F4) → Purchase F4",0.15
+6,4,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.2 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F5) → Purchase F5",0.16
+6,4,C16,True,"yes, because personalized recommendations will reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Additional search cost may outweigh potential gains","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.15@F2) → Search Next; C16 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:-0.15@F2) → Leave Market",-0.06
+6,4,C17,True,"yes, sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.29) is available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.29@F0) → Purchase F0",0.25
+6,4,C18,True,"yes, personalized recommendations reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.24) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F5) → Purchase F5",0.19
+6,4,C19,True,"yes, sharing data reduces search costs significantly and outweighs the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.19) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.15
+6,4,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- The potential profit (0.01) is positive, though small.  
+- Further search cost (0.02) may exceed potential profit and reduce net revenue.","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F3) → Purchase F3",-0.03
+6,5,C1,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Additional search costs (0.02) may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,5,C2,True,"yes, because sharing data significantly reduces search cost with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.18) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.18@F2) → Purchase F2",0.13
+6,5,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.24)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.24@F5) → Leave Market",-0.04
+6,5,C4,True,"yes, sharing reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs the search cost (0.02).  
+- Further searching risks additional costs without guaranteed better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,5,C5,True,"yes, sharing reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.03 is available  
+- Searching more costs 0.02, which may reduce total revenue given the small profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.03@F2) → Purchase F2",-0.01
+6,5,C6,True,"yes, personalized recommendations will reduce search cost significantly, outweighing small privacy value.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No positive profit found so far (profit is -0.08)  
+- Further search costs (0.02) may not be justified given low valuation and high price","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.08@F3) → Leave Market",-0.03
+6,5,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.12 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F5) → Purchase F5",0.08
+6,5,C8,True,"yes, personalized recommendations will reduce search costs significantly and improve decision efficiency.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), yielding positive net revenue.  
+- Further search costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,5,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,5,C10,True,"yes, personalized recommendations will reduce search cost significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No positive profit from searched firm (profit = 0.0).  
+- Searching another firm costs 0.02, likely reducing net revenue below zero.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.00@F3) → Leave Market",-0.04
+6,5,C11,True,"yes, personalized recommendations will reduce search costs significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.07) is positive and exceeds search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.07@F2) → Purchase F2",0.03
+6,5,C12,True,"yes, personalized recommendations will significantly reduce search costs with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit of 0.06 is found  
+- Further search costs 0.02 may not yield better profit given small margin and privacy cost","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.06@F1) → Purchase F1",0.02
+6,5,C13,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- The only searched firm has negative profit (-0.04) 
+- Additional search cost may not be justified given low valuation and privacy cost already paid","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F5) → Leave Market",-0.03
+6,5,C14,True,"yes, because personalized recommendations reduce search costs more than the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.14) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.14@F4) → Purchase F4",0.1
+6,5,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.15 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.15@F5) → Purchase F5",0.11
+6,5,C16,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Both searched firms yield negative profit.  
+- Additional search cost may outweigh potential gains given low valuations.","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.20@F2) → Search Next; C16 Search #2 (Searched:2/6, SearchCost:0.02, BestProfit:-0.20@F2) → Leave Market",-0.06
+6,5,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,5,C18,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.19) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.14
+6,5,C19,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.14) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.14@F5) → Purchase F5",0.1
+6,5,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.09).  
+- Searching further costs 0.02 and may not yield positive net revenue given low valuation-price gap.","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.09@F3) → Leave Market",-0.04
+6,6,C1,True,"yes, because personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Additional search costs (0.02) may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,6,C2,True,"yes, because sharing data significantly reduces search cost with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.13) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.13@F2) → Purchase F2",0.08
+6,6,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Current firm offers negative profit (-0.19)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.19@F5) → Leave Market",-0.04
+6,6,C4,True,"yes, sharing reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs search cost.  
+- Further search costs 0.02 and may not yield better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,6,C5,True,"yes, because sharing data reduces search cost significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.02)  
+- Searching costs 0.02 may further reduce total revenue with no guaranteed better option","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.02@F2) → Leave Market",-0.04
+6,6,C6,True,"yes, personalized recommendations significantly reduce search cost, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.02) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.02@F3) → Purchase F3",-0.01
+6,6,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.17 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.13
+6,6,C8,True,"yes, because personalized recommendations significantly reduce search costs and improve decision efficiency.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), yielding positive net revenue.  
+- Further searching costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,6,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,6,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.1 is better than zero net revenue from searching more.  
+- Further search cost of 0.02 may reduce net revenue below zero given low profit margin.","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.06
+6,6,C11,True,"yes, personalized recommendations will significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.02) is positive and exceeds the search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.02@F2) → Purchase F2",-0.02
+6,6,C12,True,"yes, personalized recommendations reduce search costs significantly with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit (0.01) is found  
+- Further search costs 0.02 may not yield better profit given small margin and privacy cost","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F1) → Purchase F1",-0.03
+6,6,C13,True,"yes, sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.01) found  
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F5) → Purchase F5",-0.02
+6,6,C14,True,"yes, because personalized recommendations reduce search cost significantly, outweighing the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.09) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.09@F4) → Purchase F4",0.05
+6,6,C15,True,"yes, sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.2 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F5) → Purchase F5",0.16
+6,6,C16,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Additional search cost may outweigh potential gains given low valuations","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.25@F2) → Leave Market",-0.04
+6,6,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) already available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,6,C18,True,"yes, personalized recommendations reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.24) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F5) → Purchase F5",0.19
+6,6,C19,True,"yes, because sharing data reduces search costs significantly, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.19) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.15
+6,6,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- The potential profit (0.01) is positive  
+- Further search cost (0.02) may exceed potential profit and reduce net revenue","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F3) → Purchase F3",-0.03
+6,7,C1,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,7,C2,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.18) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.18@F2) → Purchase F2",0.13
+6,7,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Current firm offers negative profit (-0.24)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.24@F5) → Leave Market",-0.04
+6,7,C4,True,"yes, sharing data reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The potential profit (0.37) is positive and outweighs the search cost.
+- Further searching costs 0.02 and may not yield better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,7,C5,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.03 is available  
+- Searching more costs 0.02, which may reduce total revenue given the small profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.03@F2) → Purchase F2",-0.01
+6,7,C6,True,"yes, personalized recommendations significantly reduce search cost, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.02) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.02@F3) → Purchase F3",-0.01
+6,7,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.12 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F5) → Purchase F5",0.08
+6,7,C8,True,"yes, personalized recommendations will reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), yielding positive net revenue.  
+- Further searching costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,7,C9,True,"yes, the reduced search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,7,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.1 after zero search cost  
+- Further search cost 0.02 may reduce net revenue below zero","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.06
+6,7,C11,True,"yes, personalized recommendations will significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.07) is positive and exceeds the search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.07@F2) → Purchase F2",0.03
+6,7,C12,True,"yes, personalized recommendations reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No positive profit found in the searched firm (profit = -0.04)  
+- Further search costs 0.02 and privacy cost 0.039 likely outweigh potential gains","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F1) → Leave Market",-0.04
+6,7,C13,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- All searched firms have negative profit  
+- Additional search cost may not be justified given low valuation and privacy cost already paid","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F5) → Leave Market",-0.03
+6,7,C14,True,"yes, because personalized recommendations reduce search cost more than the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.04) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F4) → Purchase F4",0.0
+6,7,C15,True,"yes, sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.15 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.15@F5) → Purchase F5",0.11
+6,7,C16,True,"yes, personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No firm searched offers positive profit  
+- Further search costs may outweigh potential gains given low valuations","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.20@F2) → Leave Market",-0.04
+6,7,C17,True,"yes, sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is already available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,7,C18,True,"yes, personalized recommendations reduce search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.19) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.14
+6,7,C19,True,"yes, sharing data reduces search costs significantly and outweighs the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.14) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.14@F5) → Purchase F5",0.1
+6,7,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- The potential profit (0.01) is positive  
+- Further search cost (0.02) may exceed potential profit and reduce net revenue","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F3) → Purchase F3",-0.03
+6,8,C1,True,"yes, because personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,8,C2,True,"yes, because sharing data significantly reduces search cost with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.18) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.18@F2) → Purchase F2",0.13
+6,8,C3,True,"yes, because personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- Current firm offers negative profit (-0.19)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.19@F5) → Leave Market",-0.04
+6,8,C4,True,"yes, sharing reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs the search cost (0.02).  
+- Further searching risks additional costs without guaranteed better profit beyond privacy cost.","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,8,C5,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.03 is available  
+- Searching costs 0.02, which may reduce total revenue given the small profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.03@F2) → Purchase F2",-0.01
+6,8,C6,True,"yes, personalized recommendations significantly reduce search cost, outweighing small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because: 
+- Positive profit found (0.02)
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.02@F3) → Purchase F3",-0.01
+6,8,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.17 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.13
+6,8,C8,True,"yes, personalized recommendations reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), yielding positive net revenue.  
+- Further searching costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,8,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,8,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.1 is better than zero or negative profit after additional search cost  
+- Further search cost of 0.02 may reduce net revenue below zero given low profit margin","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.10@F3) → Purchase F3",0.06
+6,8,C11,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.07) is positive and exceeds further search cost (0.02).  
+- Additional search costs may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.07@F2) → Purchase F2",0.03
+6,8,C12,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit (0.06) is found  
+- Further search costs 0.02 and privacy cost 0.039 likely outweigh small margin gains","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.06@F1) → Purchase F1",0.02
+6,8,C13,True,"yes, sharing reduces search costs significantly with 6 firms, outweighing small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.01) found  
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F5) → Purchase F5",-0.02
+6,8,C14,True,"yes, because personalized recommendations reduce search cost more than the small privacy cost.",-1,"### Decision:
+I'll **leave** (choose number -1) because: 
+- Current profit is negative (-0.01)
+- Searching more costs 0.02, likely worsening total revenue","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.01@F4) → Leave Market",-0.04
+6,8,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.2 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F5) → Purchase F5",0.16
+6,8,C16,True,"yes, because personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Additional search cost may outweigh potential gains given low valuations","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.20@F2) → Leave Market",-0.04
+6,8,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is already available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,8,C18,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.24) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F5) → Purchase F5",0.19
+6,8,C19,True,"yes, because sharing data reduces search costs significantly with 6 firms, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.19) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.15
+6,8,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The potential profit (0.01) is too small to cover the search cost of 0.02 for further search  
+- Buying now yields nearly zero or negative net revenue after considering privacy and search costs","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F3) → Leave Market",-0.04
+6,9,C1,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,9,C2,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.18) found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.18@F2) → Purchase F2",0.13
+6,9,C3,True,"yes, personalized recommendations will significantly reduce search costs with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.24)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.24@F5) → Leave Market",-0.04
+6,9,C4,True,"yes, because sharing data reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs the zero search cost so far.  
+- Further searching costs 0.02 and may not yield better profit beyond privacy cost (0.045).","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,9,C5,True,"yes, sharing data reduces search cost significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers very low positive profit (0.03) which is negligible after considering privacy value.  
+- Searching costs 0.02 may further reduce total revenue with no guaranteed better option.","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.03@F2) → Leave Market",-0.04
+6,9,C6,True,"yes, personalized recommendations significantly reduce search cost and outweigh the small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.12) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F3) → Purchase F3",0.09
+6,9,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.12 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F5) → Purchase F5",0.08
+6,9,C8,True,"yes, personalized recommendations reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because: 
+- The profit is positive (0.04), yielding positive net revenue.
+- Further search costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,9,C9,True,"yes, the reduction in search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,9,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.2 is good given zero search cost so far  
+- Further search cost of 0.02 may reduce net revenue below zero","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F3) → Purchase F3",0.16
+6,9,C11,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.07) is positive and exceeds the search cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.07@F2) → Purchase F2",0.03
+6,9,C12,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",1,"### Decision:
+I'll **purchase Firm 1** (choose number 1) because:  
+- Positive profit (0.01) is found  
+- Further search costs 0.02 and privacy cost 0.039 likely outweigh small margin gains","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F1) → Purchase F1",-0.03
+6,9,C13,True,"yes, sharing reduces search costs significantly with 6 firms, outweighing small privacy cost.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm has negative profit (-0.04)  
+- Additional search cost (0.02) may not be justified given low valuation and privacy cost already paid","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F5) → Leave Market",-0.03
+6,9,C14,True,"yes, because personalized recommendations reduce search cost more than the small privacy cost.",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.09) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.09@F4) → Purchase F4",0.05
+6,9,C15,True,"yes, because sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.15 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.15@F5) → Purchase F5",0.11
+6,9,C16,True,"yes, personalized recommendations will reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Further search costs likely outweigh potential gains given low valuations","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.20@F2) → Leave Market",-0.04
+6,9,C17,True,"yes, because sharing data reduces search cost significantly with many firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,9,C18,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.19) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.14
+6,9,C19,True,"yes, because sharing data reduces search costs significantly and outweighs the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.14) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.14@F5) → Purchase F5",0.1
+6,9,C20,True,"yes, sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- The potential profit (0.11) is positive  
+- Further search cost (0.02) may reduce net revenue and risk no better deal","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.11@F3) → Purchase F3",0.07
+6,10,C1,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit (0.38) is positive.  
+- Searching more costs 0.02 and may reduce net profit below zero.  
+- The first search is free and already reveals a good deal.","C1 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.38@F0) → Purchase F0",0.34
+6,10,C2,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit (0.23) already found  
+- Further search cost (0.02) may reduce net revenue  
+- First search is free and current offer is good enough","C2 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.23@F2) → Purchase F2",0.18
+6,10,C3,True,"yes, personalized recommendations with 6 firms will significantly reduce search costs.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- The only searched firm offers negative profit (-0.19)  
+- Additional search cost may exceed potential gains given low net profit margin","C3 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.19@F5) → Leave Market",-0.04
+6,10,C4,True,"yes, sharing data reduces search costs significantly and outweighs the small privacy cost.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The potential profit (0.37) is positive and outweighs the zero search cost so far.  
+- Further searching costs 0.02 and may not yield better profit beyond privacy cost (0.045).","C4 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.37@F0) → Purchase F0",0.32
+6,10,C5,True,"yes, sharing data reduces search cost significantly with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- Positive profit of 0.08 is available  
+- Searching more costs 0.02, which may reduce total revenue given the modest profit","C5 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.08@F2) → Purchase F2",0.04
+6,10,C6,True,"yes, personalized recommendations significantly reduce search cost and outweigh the small privacy value.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit (0.12) found  
+- Additional search cost (0.02) may outweigh potential gain","C6 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F3) → Purchase F3",0.09
+6,10,C7,True,"yes, reduced search cost outweighs small privacy value",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.17 is good  
+- Further search costs 0.02 and profit margin is less than 1, so cautious to continue searching","C7 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.17@F5) → Purchase F5",0.13
+6,10,C8,True,"yes, personalized recommendations reduce search costs significantly.",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- The profit is positive (0.04), yielding positive net revenue.  
+- Further searching costs 0.02 may reduce net revenue below zero.","C8 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.04@F0) → Purchase F0",-0.01
+6,10,C9,True,"yes, the reduced search cost from personalized recommendations outweighs the small privacy cost",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.26) already found  
+- Further search cost (0.02) may outweigh potential gains","C9 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.26@F0) → Purchase F0",0.21
+6,10,C10,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- Positive profit of 0.2 is good given zero search cost so far  
+- Further search cost of 0.02 may reduce net revenue below zero","C10 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F3) → Purchase F3",0.16
+6,10,C11,True,"yes, personalized recommendations significantly reduce search costs with 6 firms.",2,"### Decision:
+I'll **purchase Firm 2** (choose number 2) because:  
+- The potential profit (0.12) is positive and exceeds the cost of further searches.  
+- Additional search cost (0.02) may reduce total profit below zero, so buying now is rational.","C11 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.12@F2) → Purchase F2",0.08
+6,10,C12,True,"yes, personalized recommendations reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No positive profit found in the searched firm (profit = -0.04)  
+- Further search costs 0.02 and privacy cost 0.039 likely outweigh potential gains","C12 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.04@F1) → Leave Market",-0.04
+6,10,C13,True,"yes, sharing reduces search costs significantly with 6 firms, outweighing small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.01) found  
+- Additional search cost (0.02) may reduce total revenue","C13 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.01@F5) → Purchase F5",-0.02
+6,10,C14,True,"yes, because personalized recommendations reduce search costs more than the small privacy cost",4,"### Decision:
+I'll **purchase Firm 4** (choose number 4) because:  
+- Positive profit (0.09) found  
+- Additional search cost (0.02) may outweigh potential gain","C14 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.09@F4) → Purchase F4",0.05
+6,10,C15,True,"yes, sharing data reduces search cost significantly with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit of 0.2 is good  
+- Additional search cost of 0.02 may reduce net gain below zero","C15 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.20@F5) → Purchase F5",0.16
+6,10,C16,True,"yes, personalized recommendations will reduce search costs significantly with 6 firms.",-1,"### Decision:
+I'll **leave** (choose number -1) because:  
+- No searched firm offers positive profit  
+- Further search costs likely outweigh potential gains given low valuations","C16 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:-0.15@F2) → Leave Market",-0.04
+6,10,C17,True,"yes, because sharing data reduces search cost significantly with many firms",0,"### Decision:
+I'll **purchase Firm 0** (choose number 0) because:  
+- Positive profit (0.34) is available  
+- Additional search cost (0.02) risks reducing net revenue below zero given small profit margin","C17 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.34@F0) → Purchase F0",0.3
+6,10,C18,True,"yes, personalized recommendations significantly reduce search cost with 6 firms.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- The potential profit (0.24) is positive.  
+- Additional search cost (0.02) may reduce net profit below zero.","C18 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.24@F5) → Purchase F5",0.19
+6,10,C19,True,"yes, because sharing data reduces search costs significantly, outweighing the small privacy cost.",5,"### Decision:
+I'll **purchase Firm 5** (choose number 5) because:  
+- Positive profit (0.19) is available  
+- Additional search cost (0.02) may reduce net revenue and is not justified given current positive profit","C19 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.19@F5) → Purchase F5",0.15
+6,10,C20,True,"yes, because sharing data reduces search cost significantly with many firms.",3,"### Decision:
+I'll **purchase Firm 3** (choose number 3) because:  
+- The potential profit (0.11) is positive  
+- Further search cost (0.02) may reduce net revenue and risk no better deal","C20 Search #1 (Searched:1/6, SearchCost:0.00, BestProfit:0.11@F3) → Purchase F3",0.07
