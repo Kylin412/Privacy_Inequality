@@ -114,7 +114,7 @@ python RQ2/main_plot_analysis.py
 
 ## RQ3: Factor Importance Scoring and Draft Bar Charts
 
-This directory contains the analysis pipeline and intermediate results used in **Research Question 3 (RQ3)**.  
+This directory contains the analysis pipeline(CV-DLS) and intermediate results used in **Research Question 3 (RQ3)**.  
 The goal of RQ3 is to identify and compare the **decision-driving factors** for consumer agents and firm agents under different model configurations.
 
 This component focuses on **explainability**, **interpretation**, and **factor importance scoring**.
@@ -137,10 +137,14 @@ RQ3/
 ├── Bar chart plotting/          # Draft bar charts (not final paper plots)
 ├── configs/                     # Keyword → factor configuration files
 │
+├── human_annotation/        # Instructions for human validation and result data
+│
 ├── scoredata_consumer/          # Scoring results for consumer agents
 ├── scoredata_strong_firm/       # Scoring results for strong-model firm agents
 ├── scoredata_weak_firm/         # Scoring results for weak-model firm agents
 │
+├── agente_consumer.py           # Expert Validation for consumer data
+├── agente_firm.py               # Expert Validation for firm data
 ├── score_consumer.py            # Computes factor scores for consumer agents
 ├── score_firm.py                # Computes factor scores for firm agents
 └── .keep
